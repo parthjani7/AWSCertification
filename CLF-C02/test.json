@@ -1,3 +1,6 @@
+---
+layout: exam
+---
 
 1. Which AWS service will help a company identify the user who deleted an Amazon EC2 instance yesterday?
      
@@ -7,8 +10,8 @@
 "D. Amazon Inspector"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
-"correctAnswer": "C. AWS CloudTrail"
-"explanation": "AWS CloudTrail is a service that enables you to track user activity and API usage across your AWS account essential for identifying specific actions such as deleting an EC2 instance."
+   "correctAnswer": "C. AWS CloudTrail"
+   "explanation": "AWS CloudTrail is a service that enables you to track user activity and API usage across your AWS account essential for identifying specific actions such as deleting an EC2 instance."
 </details>
 
 2. A company needs a content delivery network that provides secure data video application and API delivery to users globally with low latency and high transfer speeds. Which AWS service meets these requirements?
