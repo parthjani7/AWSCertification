@@ -44,10 +44,10 @@
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Cost of data center operations",
-"D. Cost of physical server hardware"
-]
-"explanation": "By migrating to the AWS Cloud the company can eliminate costs associated with data center operations and physical server hardware."
+- "A. Cost of data center operations",
+- "D. Cost of physical server hardware"
+- ]
+- "explanation": "By migrating to the AWS Cloud the company can eliminate costs associated with data center operations and physical server hardware."
 </details>
 
 5. Which of the following acts as a firewall at the instance level to control inbound and outbound access?
@@ -112,10 +112,10 @@
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Patching AWS networking devices",
-"C. Providing physical security for compute resources"
-]
-"explanation": "Patching AWS networking devices and providing physical security for compute resources are tasks that are AWS responsibilities."
+- "A. Patching AWS networking devices",
+- "C. Providing physical security for compute resources"
+- ]
+- "explanation": "Patching AWS networking devices and providing physical security for compute resources are tasks that are AWS responsibilities."
 </details>
 
 10. An IT team is managing clusters of MySQL database servers. The team has to patch the database and take backup snapshots of the data in the clusters. The company wants to move this workload to AWS so that these tasks are completed automatically. What should the company do to meet these requirements?
@@ -192,10 +192,10 @@
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Determine application dependencies on operating systems",
-"B. Provide user access with AWS Identity and Access Management (IAM)"
-]
-"explanation": "Determining application dependencies and providing user access using AWS IAM are customer responsibilities per the AWS Shared Responsibility Model."
+- "A. Determine application dependencies on operating systems",
+- "B. Provide user access with AWS Identity and Access Management (IAM)"
+- ]
+- "explanation": "Determining application dependencies and providing user access using AWS IAM are customer responsibilities per the AWS Shared Responsibility Model."
 </details>
 
 16. Which of the following promotes AWS Cloud architectural best practices for designing and operating reliable secure efficient and cost-effective systems?
@@ -380,10 +380,10 @@
 
 31. Which AWS service should a cloud engineer use to visualize API calls to AWS services?
 
-"A. Amazon CloudWatch"
-"B. AWS CloudTrail"
-"C. AWS Config"
-"D. AWS Artifact"
+- "A. Amazon CloudWatch"
+- "B. AWS CloudTrail"
+- "C. AWS Config"
+- "D. AWS Artifact"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS CloudTrail"
@@ -392,10 +392,10 @@
 
 32. A company needs to configure rules to identify threats and protect applications from malicious access on the network. Which AWS service should the company use to meet these requirements?
 
-"A. AWS Identity and Access Management (IAM)"
-"B. Amazon QuickSight"
-"C. AWS WAF"
-"D. Amazon Detective"
+- "A. AWS Identity and Access Management (IAM)"
+- "B. Amazon QuickSight"
+- "C. AWS WAF"
+- "D. Amazon Detective"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. AWS WAF"
@@ -404,10 +404,10 @@
 
 33. A company wants to migrate its on-premises relational data warehouse to AWS. The information in the data warehouse is used to feed analytics dashboards. Which AWS service should the company use for the data warehouse?
 
-"A. Amazon ElastiCache"
-"B. Amazon Aurora"
-"C. Amazon RDS"
-"D. Amazon Redshift"
+- "A. Amazon ElastiCache"
+- "B. Amazon Aurora"
+- "C. Amazon RDS"
+- "D. Amazon Redshift"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon Redshift"
@@ -416,11 +416,11 @@
 
 34. A company wants to host its relational databases on AWS. The databases have predefined schemas that the company needs to replicate in AWS. Which AWS services could the company use for the databases? (Select TWO.)
 
-"A. Amazon Aurora"
-"B. Amazon RDS"
-"C. Amazon DocumentDB (with MongoDB compatibility)"
-"D. Amazon Neptune"
-"E. Amazon DynamoDB"
+- "A. Amazon Aurora"
+- "B. Amazon RDS"
+- "C. Amazon DocumentDB (with MongoDB compatibility)"
+- "D. Amazon Neptune"
+- "E. Amazon DynamoDB"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["A. Amazon Aurora" "B. Amazon RDS"]
@@ -429,10 +429,10 @@
 
 35. A retail company is building a new mobile application. The company is evaluating whether to build the application in an on-premises data center or in the AWS Cloud. Which service should the company consider?
 
-"A. Amazon FSx for Windows File Server"
-"B. Amazon WorkSpaces virtual Windows desktop"
-"C. AWS Directory Service for Microsoft Active Directory"
-"D. Amazon RDS for Microsoft SQL Server"
+- "A. Amazon FSx for Windows File Server"
+- "B. Amazon WorkSpaces virtual Windows desktop"
+- "C. AWS Directory Service for Microsoft Active Directory"
+- "D. Amazon RDS for Microsoft SQL Server"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. AWS Directory Service for Microsoft Active Directory"
@@ -441,26 +441,26 @@
 
 36. Which design principles support the reliability pillar of the AWS Well-Architected Framework? (Select TWO.)
 
-"A. Perform operations as code"
-"B. Enable traceability"
-"C. Automatically scale to meet demand"
-"D. Deploy resources globally to improve response time"
-"E. Automatically recover from failure"
+- "A. Perform operations as code"
+- "B. Enable traceability"
+- "C. Automatically scale to meet demand"
+- "D. Deploy resources globally to improve response time"
+- "E. Automatically recover from failure"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "C. Automatically scale to meet demand"
-"E. Automatically recover from failure"
+- "E. Automatically recover from failure"
 ]
 "explanation": "The principles of automatically scaling to meet demand and automatically recovering from failure support the reliability pillar of the AWS Well-Architected Framework ensuring systems can handle changes in demand and recover from disruptions."
 </details>
 
 37. A cloud engineer wants to know the percentage of allocated compute units that are in use for a specific Amazon EC2 instance. Which AWS service can provide this information?
 
-"A. AWS CloudTrail"
-"B. AWS Config"
-"C. Amazon CloudWatch"
-"D. AWS Artifact"
+- "A. AWS CloudTrail"
+- "B. AWS Config"
+- "C. Amazon CloudWatch"
+- "D. AWS Artifact"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon CloudWatch"
@@ -469,10 +469,10 @@
 
 38. Which AWS service or feature is used for troubleshooting network connectivity between Amazon EC2 instances?
 
-"A. AWS Certificate Manager (ACM)"
-"B. Internet Gateway"
-"C. VPC Flow Logs"
-"D. AWS CloudHSM"
+- "A. AWS Certificate Manager (ACM)"
+- "B. Internet Gateway"
+- "C. VPC Flow Logs"
+- "D. AWS CloudHSM"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. VPC Flow Logs"
@@ -481,10 +481,10 @@
 
 39. Which AWS service provides highly durable object storage?
 
-"A. Amazon S3"
-"B. Amazon Elastic File System (Amazon EFS)"
-"C. Amazon Elastic Block Store (Amazon EBS)"
-"D. Amazon FSx"
+- "A. Amazon S3"
+- "B. Amazon Elastic File System (Amazon EFS)"
+- "C. Amazon Elastic Block Store (Amazon EBS)"
+- "D. Amazon FSx"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon S3"
@@ -493,10 +493,10 @@
 
 40. Which AWS service or feature gives users the ability to provision a dedicated private network connection from their internal network to AWS?
 
-"A. AWS CloudHSM"
-"B. AWS Direct Connect"
-"C. AWS VPN"
-"D. Amazon Connect"
+- "A. AWS CloudHSM"
+- "B. AWS Direct Connect"
+- "C. AWS VPN"
+- "D. Amazon Connect"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Direct Connect"
@@ -505,10 +505,10 @@
 
 41. A company wants its Amazon EC2 instances to operate in a highly available environment even in case of a natural disaster in a specific geographic area. Which solution achieves this goal?
 
-"A. Use EC2 instances in a single Availability Zone"
-"B. Use EC2 instances across multiple AWS Regions"
-"C. Use EC2 instances across multiple edge locations"
-"D. Use Amazon CloudFront with the EC2 instances configured as the origin"
+- "A. Use EC2 instances in a single Availability Zone"
+- "B. Use EC2 instances across multiple AWS Regions"
+- "C. Use EC2 instances across multiple edge locations"
+- "D. Use Amazon CloudFront with the EC2 instances configured as the origin"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Use EC2 instances across multiple AWS Regions"
@@ -517,10 +517,10 @@
 
 42. What is the recommended method to secure sensitive data in transit on AWS?
 
-"A. Use AWS Shield"
-"B. Use SSL/TLS"
-"C. Use AWS WAF"
-"D. Use IAM security policies"
+- "A. Use AWS Shield"
+- "B. Use SSL/TLS"
+- "C. Use AWS WAF"
+- "D. Use IAM security policies"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Use SSL/TLS"
@@ -529,10 +529,10 @@
 
 43. What does Amazon RDS automate that benefits database administrators?
 
-"A. Writing SQL queries"
-"B. Database schema design"
-"C. Backing up and recovering database instances"
-"D. Generating business reports"
+- "A. Writing SQL queries"
+- "B. Database schema design"
+- "C. Backing up and recovering database instances"
+- "D. Generating business reports"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Backing up and recovering database instances"
@@ -541,10 +541,10 @@
 
 44. Which AWS service is best for distributing traffic among multiple Amazon EC2 instances?
 
-"A. Amazon EC2 Auto Scaling"
-"B. AWS Direct Connect"
-"C. Amazon Route 53"
-"D. Elastic Load Balancer"
+- "A. Amazon EC2 Auto Scaling"
+- "B. AWS Direct Connect"
+- "C. Amazon Route 53"
+- "D. Elastic Load Balancer"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Elastic Load Balancer"
@@ -553,10 +553,10 @@
 
 45. What is the purpose of AWS CloudFormation?
 
-"A. Monitor application performance"
-"B. Manage network security"
-"C. Provision and manage AWS resources"
-"D. Automate application deployment"
+- "A. Monitor application performance"
+- "B. Manage network security"
+- "C. Provision and manage AWS resources"
+- "D. Automate application deployment"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Provision and manage AWS resources"
@@ -565,10 +565,10 @@
 
 46. How are costs calculated in Amazon S3?
 
-"A. Based on the number of GET requests"
-"B. Based on the number of objects stored"
-"C. Based on the total size of stored data and data transfer"
-"D. Based on the duration of data storage"
+- "A. Based on the number of GET requests"
+- "B. Based on the number of objects stored"
+- "C. Based on the total size of stored data and data transfer"
+- "D. Based on the duration of data storage"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Based on the total size of stored data and data transfer"
@@ -577,10 +577,10 @@
 
 47. Which AWS service helps in detecting security flaws in applications?
 
-"A. AWS Inspector"
-"B. AWS Shield"
-"C. Amazon GuardDuty"
-"D. AWS WAF"
+- "A. AWS Inspector"
+- "B. AWS Shield"
+- "C. Amazon GuardDuty"
+- "D. AWS WAF"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Inspector"
@@ -589,10 +589,10 @@
 
 48. Which characteristic describes Amazon DynamoDB?
 
-"A. Relational database"
-"B. Document database"
-"C. NoSQL database"
-"D. Data warehouse"
+- "A. Relational database"
+- "B. Document database"
+- "C. NoSQL database"
+- "D. Data warehouse"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. NoSQL database"
@@ -601,10 +601,10 @@
 
 49. What does AWS Lambda allow developers to do?
 
-"A. Manage EC2 instances"
-"B. Run code in response to triggers"
-"C. Automatically allocate Elastic IPs"
-"D. Monitor applications in real-time"
+- "A. Manage EC2 instances"
+- "B. Run code in response to triggers"
+- "C. Automatically allocate Elastic IPs"
+- "D. Monitor applications in real-time"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Run code in response to triggers"
@@ -613,10 +613,10 @@
 
 50. What is the primary purpose of Amazon S3?
 
-"A. Run serverless functions"
-"B. Scalable object storage"
-"C. Host web applications"
-"D. Large-scale data processing"
+- "A. Run serverless functions"
+- "B. Scalable object storage"
+- "C. Host web applications"
+- "D. Large-scale data processing"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Scalable object storage"
@@ -625,10 +625,10 @@
 
 51. What is AWS Direct Connect?
 
-"A. A service for connecting on-premises networks to AWS"
-"B. A tool for transferring large files"
-"C. An instant messaging service"
-"D. A database management system"
+- "A. A service for connecting on-premises networks to AWS"
+- "B. A tool for transferring large files"
+- "C. An instant messaging service"
+- "D. A database management system"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. A service for connecting on-premises networks to AWS"
@@ -637,10 +637,10 @@
 
 52. Which AWS service should a cloud engineer use to visualize API calls to AWS services?
 
-"A. Amazon CloudWatch"
-"B. AWS CloudTrail"
-"C. AWS Config"
-"D. AWS Artifact"
+- "A. Amazon CloudWatch"
+- "B. AWS CloudTrail"
+- "C. AWS Config"
+- "D. AWS Artifact"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS CloudTrail"
@@ -649,10 +649,10 @@
 
 53. How can an AWS user perform security assessments on Amazon EC2 instances NAT gateways and Elastic Load Balancers in an AWS-approved manner?
 
-"A. Flood a target with requests"
-"B. Use Amazon Inspector"
-"C. Conduct penetration testing"
-"D. Use the AWS Service Health Dashboard"
+- "A. Flood a target with requests"
+- "B. Use Amazon Inspector"
+- "C. Conduct penetration testing"
+- "D. Use the AWS Service Health Dashboard"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Use Amazon Inspector"
@@ -661,26 +661,26 @@
 
 54. Which factors impact costs in the AWS Cloud? (Select TWO.)
 
-"A. Number of unused AWS Lambda functions"
-"B. Number of Amazon S3 buckets configured"
-"C. Data transfer in without acceleration"
-"D. Data transfer out without acceleration"
-"E. Compute resources that are currently in use"
+- "A. Number of unused AWS Lambda functions"
+- "B. Number of Amazon S3 buckets configured"
+- "C. Data transfer in without acceleration"
+- "D. Data transfer out without acceleration"
+- "E. Compute resources that are currently in use"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "D. Data transfer out without acceleration"
-"E. Compute resources that are currently in use"
+- "E. Compute resources that are currently in use"
 ]
 "explanation": "Data transfer out without acceleration and compute resources that are currently in use are factors that impact costs in the AWS Cloud."
 </details>
 
 55. What is a cost efficiency principle related to the AWS cloud?
 
-"A. Properly size services based on capacity needs"
-"B. Use the Billing Dashboard to access monthly account information"
-"C. Use AWS Organizations to combine the expenses of multiple accounts into a single invoice"
-"D. Tag all AWS resources"
+- "A. Properly size services based on capacity needs"
+- "B. Use the Billing Dashboard to access monthly account information"
+- "C. Use AWS Organizations to combine the expenses of multiple accounts into a single invoice"
+- "D. Tag all AWS resources"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Properly size services based on capacity needs"
@@ -689,10 +689,10 @@
 
 56. A company is setting up its AWS cloud environment. The company's administrators need to group users and apply permissions to the group. Which AWS service or feature can the company use to meet these requirements?
 
-"A. AWS Organizations"
-"B. Resource Groups"
-"C. Resource Tagging"
-"D. AWS Identity and Access Management (IAM)"
+- "A. AWS Organizations"
+- "B. Resource Groups"
+- "C. Resource Tagging"
+- "D. AWS Identity and Access Management (IAM)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Identity and Access Management (IAM)"
@@ -701,10 +701,10 @@
 
 57. A company wants to ensure that two Amazon EC2 instances are in separate data centers with minimal communication latency between the centers. How can the company meet this requirement?
 
-"A. Place the EC2 instances in two separate AWS Regions connected with a VPC peering connection"
-"B. Place the EC2 instances in two separate Availability Zones within the same AWS Region"
-"C. Place one EC2 instance on-premises and the other in an AWS Region. Then connect them using an AWS VPN connection"
-"D. Place both EC2 instances in a placement group for dedicated bandwidth"
+- "A. Place the EC2 instances in two separate AWS Regions connected with a VPC peering connection"
+- "B. Place the EC2 instances in two separate Availability Zones within the same AWS Region"
+- "C. Place one EC2 instance on-premises and the other in an AWS Region. Then connect them using an AWS VPN connection"
+- "D. Place both EC2 instances in a placement group for dedicated bandwidth"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Place the EC2 instances in two separate Availability Zones within the same AWS Region"
@@ -713,10 +713,10 @@
 
 58. A security engineer wants a single-tenant AWS solution to create control and manage their own cryptographic keys to meet data security regulatory requirements. Which AWS service should the engineer use?
 
-"A. AWS Key Management Service (AWS KMS)"
-"B. AWS Certificate Manager (ACM)"
-"C. AWS CloudHSM"
-"D. AWS Systems Manager"
+- "A. AWS Key Management Service (AWS KMS)"
+- "B. AWS Certificate Manager (ACM)"
+- "C. AWS CloudHSM"
+- "D. AWS Systems Manager"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. AWS CloudHSM"
@@ -725,10 +725,10 @@
 
 59. A company is designing an access and identity management solution for an application. The company wants users to be able to use their social media email or online shopping accounts to access the application. Which AWS service provides this functionality?
 
-"A. AWS IAM Identity Center (AWS Single Sign-On)"
-"B. AWS Config"
-"C. Amazon Cognito"
-"D. AWS Identity and Access Management (IAM)"
+- "A. AWS IAM Identity Center (AWS Single Sign-On)"
+- "B. AWS Config"
+- "C. Amazon Cognito"
+- "D. AWS Identity and Access Management (IAM)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon Cognito"
@@ -737,10 +737,10 @@
 
 60. What is the benefit of migrating to the AWS cloud in terms of improving time-to-market?
 
-"A. Reduced deployment speed"
-"B. Increased application security"
-"C. Increased business agility"
-"D. Increased backup capabilities"
+- "A. Reduced deployment speed"
+- "B. Increased application security"
+- "C. Increased business agility"
+- "D. Increased backup capabilities"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Increased business agility"
@@ -749,10 +749,10 @@
 
 61. Which benefit is included in the AWS Enterprise Support plan?
 
-"A. AWS Partner Network (APN) support at no additional cost"
-"B. Designated support from an AWS technical account manager (TAM)"
-"C. On-site support from AWS engineers"
-"D. AWS managed compliance as code with AWS Config"
+- "A. AWS Partner Network (APN) support at no additional cost"
+- "B. Designated support from an AWS technical account manager (TAM)"
+- "C. On-site support from AWS engineers"
+- "D. AWS managed compliance as code with AWS Config"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Designated support from an AWS technical account manager (TAM)"
@@ -761,10 +761,10 @@
 
 62. A company wants to track the service costs of their AWS account. The company also wants to receive notifications when the forecasted costs reach a specific level. Which AWS service or tool provides this functionality?
 
-"A. AWS Budgets"
-"B. AWS Cost Explorer"
-"C. Savings Plans"
-"D. AWS Billing Conductor"
+- "A. AWS Budgets"
+- "B. AWS Cost Explorer"
+- "C. Savings Plans"
+- "D. AWS Billing Conductor"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Budgets"
@@ -773,10 +773,10 @@
 
 63. Which pillar of the AWS Well-Architected Framework focuses on the return on investment of migrating to the AWS cloud?
 
-"A. Sustainability"
-"B. Cost Optimization"
-"C. Operational Excellence"
-"D. Reliability"
+- "A. Sustainability"
+- "B. Cost Optimization"
+- "C. Operational Excellence"
+- "D. Reliability"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Cost Optimization"
@@ -785,10 +785,10 @@
 
 64. Which pillar of the AWS Well-Architected Framework focuses on the ability to run workloads effectively gain insight into operations and continuously improve supporting processes and procedures?
 
-"A. Cost Optimization"
-"B. Reliability"
-"C. Operational Excellence"
-"D. Performance Efficiency"
+- "A. Cost Optimization"
+- "B. Reliability"
+- "C. Operational Excellence"
+- "D. Performance Efficiency"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Operational Excellence"
@@ -797,10 +797,10 @@
 
 65. Which of the following is a characteristic of the AWS account root user?
 
-"A. The root user is the only user that can be configured with multi-factor authentication (MFA)."
-"B. The root user is the only user that can access the AWS Management Console."
-"C. The root user is the first login identity available when an AWS account is created."
-"D. The root user has a password that cannot be changed."
+- "A. The root user is the only user that can be configured with multi-factor authentication (MFA)."
+- "B. The root user is the only user that can access the AWS Management Console."
+- "C. The root user is the first login identity available when an AWS account is created."
+- "D. The root user has a password that cannot be changed."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. The root user is the first login identity available when an AWS account is created."
@@ -809,11 +809,11 @@
 
 66. What options does AWS make available to customers who want to learn about cloud security in an instructor-led environment? (Select TWO.)
 
-"A. AWS Trusted Advisor"
-"B. AWS Online Tech Talks"
-"C. AWS Blog"
-"D. AWS Forums"
-"E. AWS Classroom Training"
+- "A. AWS Trusted Advisor"
+- "B. AWS Online Tech Talks"
+- "C. AWS Blog"
+- "D. AWS Forums"
+- "E. AWS Classroom Training"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. AWS Online Tech Talks" "E. AWS Classroom Training"]
@@ -822,10 +822,10 @@
 
 67. Which AWS service uses a combination of publishers and subscribers?
 
-"A. AWS Lambda"
-"B. Amazon Simple Notification Service (Amazon SNS)"
-"C. Amazon CloudWatch"
-"D. AWS CloudFormation"
+- "A. AWS Lambda"
+- "B. Amazon Simple Notification Service (Amazon SNS)"
+- "C. Amazon CloudWatch"
+- "D. AWS CloudFormation"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon Simple Notification Service (Amazon SNS)"
@@ -834,26 +834,26 @@
 
 68. Which of the following are advantages that a company receives by moving an on-premises production workload to AWS? (Select TWO.)
 
-"A. AWS trains the company's staff on the use of all AWS services."
-"B. AWS manages all cloud security."
-"C. AWS provides free support from technical account managers (TAMs)."
-"D. AWS provides high availability."
-"E. AWS provides economies of scale."
+- "A. AWS trains the company's staff on the use of all AWS services."
+- "B. AWS manages all cloud security."
+- "C. AWS provides free support from technical account managers (TAMs)."
+- "D. AWS provides high availability."
+- "E. AWS provides economies of scale."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "D. AWS provides high availability."
-"E. AWS provides economies of scale."
+- "E. AWS provides economies of scale."
 ]
 "explanation": "The correct answers are D and E because AWS provides high availability and AWS provides economies of scale which are advantages that a company receives by moving an on-premises production workload to AWS. High availability means that AWS has a global infrastructure that enables customers to deploy their applications and data across multiple regions and Availability Zones. This increases the fault tolerance and resiliency of their applications and reduces the impact of failures. Economies of scale mean that AWS can achieve lower variable costs than customers can on their own. This allows customers to pay only for the resources they use and scale up or down as needed."
 </details>
 
 69. Which of the following represents a cloud concept that this architecture represents by deploying an application across multiple AWS Regions and configuring automatic failover between those Regions?
 
-"A. Security"
-"B. Reliability"
-"C. Scalability"
-"D. Cost Optimization"
+- "A. Security"
+- "B. Reliability"
+- "C. Scalability"
+- "D. Cost Optimization"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Reliability"
@@ -862,10 +862,10 @@
 
 70. Which of the following is a benefit of decoupling an AWS cloud architecture?
 
-"A. Reduced latency"
-"B. Ability to update components independently"
-"C. Decreased costs"
-"D. Fewer components to manage"
+- "A. Reduced latency"
+- "B. Ability to update components independently"
+- "C. Decreased costs"
+- "D. Fewer components to manage"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Ability to update components independently"
@@ -874,10 +874,10 @@
 
 71. A company is launching a new application on the AWS cloud. The application will run on an Amazon EC2 instance. More EC2 instances will be needed when the workload increases. Which AWS service or tool can the company use to launch the number of EC2 instances required to handle the workload?
 
-"A. Elastic Load Balancing"
-"B. Amazon EC2 Auto Scaling"
-"C. AWS App2Container (A2C)"
-"D. AWS Systems Manager"
+- "A. Elastic Load Balancing"
+- "B. Amazon EC2 Auto Scaling"
+- "C. AWS App2Container (A2C)"
+- "D. AWS Systems Manager"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon EC2 Auto Scaling"
@@ -886,26 +886,26 @@
 
 72. Which of the following AWS services or features allow CIDR block notation when providing an IP address range? (Select TWO.)
 
-"A. Security groups"
-"B. Amazon Machine Image (AMI)"
-"C. Network access control list (network ACL)"
-"D. AWS Budgets"
-"E. Amazon Elastic Block Store (Amazon EBS)"
+- "A. Security groups"
+- "B. Amazon Machine Image (AMI)"
+- "C. Network access control list (network ACL)"
+- "D. AWS Budgets"
+- "E. Amazon Elastic Block Store (Amazon EBS)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Security groups"
-"C. Network access control list (network ACL)"
-]
-"explanation": "The correct answers are A and C because security groups and network access control lists (network ACLs) are AWS services or features that allow CIDR block notation when providing an IP address range. Security groups act as a virtual firewall for the associated Amazon EC2 instances controlling inbound and outbound traffic at the instance level. Network ACLs act as a firewall for the associated subnets controlling inbound and outbound traffic at the subnet level. Both security groups and network ACLs use CIDR block notation to specify the IP address ranges that are allowed or denied."
+- "A. Security groups"
+- "C. Network access control list (network ACL)"
+- ]
+- "explanation": "The correct answers are A and C because security groups and network access control lists (network ACLs) are AWS services or features that allow CIDR block notation when providing an IP address range. Security groups act as a virtual firewall for the associated Amazon EC2 instances controlling inbound and outbound traffic at the instance level. Network ACLs act as a firewall for the associated subnets controlling inbound and outbound traffic at the subnet level. Both security groups and network ACLs use CIDR block notation to specify the IP address ranges that are allowed or denied."
 </details>
 
 73. Which of the following AWS services provides the capability to host a NoSQL database in the AWS Cloud?
 
-"A. Amazon Aurora"
-"B. Amazon DynamoDB"
-"C. Amazon RDS"
-"D. Amazon Redshift"
+- "A. Amazon Aurora"
+- "B. Amazon DynamoDB"
+- "C. Amazon RDS"
+- "D. Amazon Redshift"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon DynamoDB"
@@ -914,10 +914,10 @@
 
 74. Which AWS service can a user use to identify any security group that is allowing unrestricted inbound SSH traffic?
 
-"A. Amazon Cognito"
-"B. AWS Shield"
-"C. Amazon Macie"
-"D. AWS Trusted Advisor"
+- "A. Amazon Cognito"
+- "B. AWS Shield"
+- "C. Amazon Macie"
+- "D. AWS Trusted Advisor"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Trusted Advisor"
@@ -926,10 +926,10 @@
 
 75. A company wants to use the AWS Cloud to manage access and permissions for its third-party Software as a Service (SaaS) applications. The company wants to use a portal where end users can access the assigned AWS accounts and applications in the cloud.
 
-"A. Amazon Cognito"
-"B. AWS IAM Identity Center (AWS Single Sign-On)"
-"C. AWS Identity and Access Management (IAM)"
-"D. AWS Directory Service for Microsoft Active Directory"
+- "A. Amazon Cognito"
+- "B. AWS IAM Identity Center (AWS Single Sign-On)"
+- "C. AWS Identity and Access Management (IAM)"
+- "D. AWS Directory Service for Microsoft Active Directory"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS IAM Identity Center (AWS Single Sign-On)"
@@ -938,10 +938,10 @@
 
 76. Which AWS service is a highly available and scalable DNS web service?
 
-"A. Amazon VPC"
-"B. Amazon CloudFront"
-"C. Amazon Route 53"
-"D. Amazon Connect"
+- "A. Amazon VPC"
+- "B. Amazon CloudFront"
+- "C. Amazon Route 53"
+- "D. Amazon Connect"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon Route 53"
@@ -957,10 +957,10 @@
 
 78. A large company has a workload that requires hardware to remain on-premises. The company wants to use the same AWS control plane and management services that it currently uses in the cloud.
 
-"A. AWS Device Farm"
-"B. AWS Fargate"
-"C. AWS Outposts"
-"D. AWS Ground Station"
+- "A. AWS Device Farm"
+- "B. AWS Fargate"
+- "C. AWS Outposts"
+- "D. AWS Ground Station"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. AWS Outposts"
@@ -969,11 +969,11 @@
 
 79. What are the responsibilities of a company that is using AWS Lambda? (Select TWO.)
 
-"A. In-code security"
-"B. CPU resource selection"
-"C. Operating system patching"
-"D. Code writing and updating"
-"E. Underlying infrastructure security"
+- "A. In-code security"
+- "B. CPU resource selection"
+- "C. Operating system patching"
+- "D. Code writing and updating"
+- "E. Underlying infrastructure security"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["A. In-code security" "D. Code writing and updating"]
@@ -982,11 +982,11 @@
 
 80. Which of the following are customer responsibilities according to the AWS Shared Responsibility Model? (Select TWO.)
 
-"A. Physical security of AWS facilities"
-"B. Security group configuration"
-"C. Encryption of customer data on AWS"
-"D. AWS Lambda infrastructure management"
-"E. Network bandwidth management of each AWS Region"
+- "A. Physical security of AWS facilities"
+- "B. Security group configuration"
+- "C. Encryption of customer data on AWS"
+- "D. AWS Lambda infrastructure management"
+- "E. Network bandwidth management of each AWS Region"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
@@ -998,10 +998,10 @@
 
 81. Which AWS service should a cloud professional use to receive real-time guidance for provisioning resources based on AWS best practices related to security cost optimization and service limits?
 
-"A. AWS Trusted Advisor"
-"B. AWS Config"
-"C. AWS Security Hub"
-"D. AWS Systems Manager"
+- "A. AWS Trusted Advisor"
+- "B. AWS Config"
+- "C. AWS Security Hub"
+- "D. AWS Systems Manager"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Trusted Advisor"
@@ -1010,10 +1010,10 @@
 
 82. A company is running applications on Amazon EC2 instances in the same AWS account for several different projects. The company wants to track infrastructure costs for each of the projects separately. The company must perform this tracking with the least possible impact on existing infrastructure and at no additional cost.
 
-"A. Use a different Amazon EC2 instance type for each project."
-"B. Publish project-specific Amazon CloudWatch custom metrics for each application."
-"C. Deploy EC2 instances for each project in a separate AWS account."
-"D. Use cost allocation tags with values specific to each project."
+- "A. Use a different Amazon EC2 instance type for each project."
+- "B. Publish project-specific Amazon CloudWatch custom metrics for each application."
+- "C. Deploy EC2 instances for each project in a separate AWS account."
+- "D. Use cost allocation tags with values specific to each project."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Use cost allocation tags with values specific to each project."
@@ -1022,10 +1022,10 @@
 
 83. Which AWS service or feature captures information about inbound and outbound network traffic from an Amazon EC2 instance?
 
-"A. VPC Reachability Analyzer"
-"B. Amazon Athena"
-"C. VPC Flow Logs"
-"D. AWS X-Ray"
+- "A. VPC Reachability Analyzer"
+- "B. Amazon Athena"
+- "C. VPC Flow Logs"
+- "D. AWS X-Ray"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. VPC Flow Logs"
@@ -1034,11 +1034,11 @@
 
 84. Which of the following are customer responsibilities according to the AWS Shared Responsibility Model? (Select TWO.)
 
-"A. Physical security of AWS facilities"
-"B. Security group configuration"
-"C. Encryption of customer data on AWS"
-"D. AWS Lambda infrastructure management"
-"E. Network bandwidth management of each AWS Region"
+- "A. Physical security of AWS facilities"
+- "B. Security group configuration"
+- "C. Encryption of customer data on AWS"
+- "D. AWS Lambda infrastructure management"
+- "E. Network bandwidth management of each AWS Region"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
@@ -1050,10 +1050,10 @@
 
 85. Which AWS service should a cloud professional use to receive real-time guidance for provisioning resources based on AWS best practices related to security cost optimization and service limits?
 
-"A. AWS Trusted Advisor"
-"B. AWS Config"
-"C. AWS Security Hub"
-"D. AWS Systems Manager"
+- "A. AWS Trusted Advisor"
+- "B. AWS Config"
+- "C. AWS Security Hub"
+- "D. AWS Systems Manager"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Trusted Advisor"
@@ -1062,10 +1062,10 @@
 
 86. A company is running applications on Amazon EC2 instances in the same AWS account for several different projects. The company wants to track infrastructure costs for each of the projects separately. The company must perform this tracking with the least possible impact on existing infrastructure and at no additional cost.
 
-"A. Use a different Amazon EC2 instance type for each project."
-"B. Publish project-specific Amazon CloudWatch custom metrics for each application."
-"C. Deploy EC2 instances for each project in a separate AWS account."
-"D. Use cost allocation tags with values specific to each project."
+- "A. Use a different Amazon EC2 instance type for each project."
+- "B. Publish project-specific Amazon CloudWatch custom metrics for each application."
+- "C. Deploy EC2 instances for each project in a separate AWS account."
+- "D. Use cost allocation tags with values specific to each project."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Use cost allocation tags with values specific to each project."
@@ -1074,10 +1074,10 @@
 
 87. Which AWS service or feature captures information about inbound and outbound network traffic from an Amazon EC2 instance?
 
-"A. VPC Reachability Analyzer"
-"B. Amazon Athena"
-"C. VPC Flow Logs"
-"D. AWS X-Ray"
+- "A. VPC Reachability Analyzer"
+- "B. Amazon Athena"
+- "C. VPC Flow Logs"
+- "D. AWS X-Ray"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. VPC Flow Logs"
@@ -1086,10 +1086,10 @@
 
 88. A company is migrating an application that includes an Oracle database to AWS. The company cannot rewrite the application.
 
-"A. Amazon Athena"
-"B. Amazon DynamoDB"
-"C. Amazon RDS"
-"D. Amazon DocumentDB (with MongoDB compatibility)"
+- "A. Amazon Athena"
+- "B. Amazon DynamoDB"
+- "C. Amazon RDS"
+- "D. Amazon DocumentDB (with MongoDB compatibility)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon RDS"
@@ -1098,10 +1098,10 @@
 
 89. Which AWS feature or resource is a deployable Amazon EC2 instance template that is pre-packaged with software and security requirements?
 
-"A. Amazon Elastic Block Store (Amazon EBS) volume"
-"B. AWS CloudFormation template"
-"C. Amazon Elastic Block Store (Amazon EBS) snapshot"
-"D. Amazon Machine Image (AMI)"
+- "A. Amazon Elastic Block Store (Amazon EBS) volume"
+- "B. AWS CloudFormation template"
+- "C. Amazon Elastic Block Store (Amazon EBS) snapshot"
+- "D. Amazon Machine Image (AMI)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon Machine Image (AMI)"
@@ -1110,10 +1110,10 @@
 
 90. Which AWS service or tool can be used to consolidate a company's payments with multiple AWS accounts?
 
-"A. AWS Cost and Usage Report"
-"B. AWS Organizations"
-"C. Cost Explorer"
-"D. AWS Budgets"
+- "A. AWS Cost and Usage Report"
+- "B. AWS Organizations"
+- "C. Cost Explorer"
+- "D. AWS Budgets"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Organizations"
@@ -1122,11 +1122,11 @@
 
 91. Which AWS services and features are provided to all customers at no additional cost? (Select TWO.)
 
-"A. Amazon Aurora"
-"B. VPC"
-"C. Amazon SageMaker"
-"D. AWS Identity and Access Management (IAM)"
-"E. Amazon Polly"
+- "A. Amazon Aurora"
+- "B. VPC"
+- "C. Amazon SageMaker"
+- "D. AWS Identity and Access Management (IAM)"
+- "E. Amazon Polly"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. VPC" "D. AWS Identity and Access Management (IAM)"]
@@ -1135,10 +1135,10 @@
 
 92. Which of the following describes an AWS Region?
 
-"A. A specific location within a geographical area that provides high availability"
-"B. A collection of data centers that span multiple countries"
-"C. A global view of a user's cloud computing environment"
-"D. A collection of databases that can be accessed only from a specific geographical area"
+- "A. A specific location within a geographical area that provides high availability"
+- "B. A collection of data centers that span multiple countries"
+- "C. A global view of a user's cloud computing environment"
+- "D. A collection of databases that can be accessed only from a specific geographical area"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. A specific location within a geographical area that provides high availability"
@@ -1147,10 +1147,10 @@
 
 93. Which pillar of the AWS Well-Architected Framework includes a design principle about measuring the overall efficiency of workloads in terms of business value?
 
-"A. Operational Excellence"
-"B. Security"
-"C. Reliability"
-"D. Cost Optimization"
+- "A. Operational Excellence"
+- "B. Security"
+- "C. Reliability"
+- "D. Cost Optimization"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Operational Excellence"
@@ -1159,10 +1159,10 @@
 
 94. A company has been storing monthly reports in an Amazon S3 bucket. The company exports the report data to comma-separated value (.csv) files. A developer wants to write a simple query that can read all those files and generate a summary report.
 
-"A. Amazon S3 Select"
-"B. Amazon Athena"
-"C. Amazon Redshift"
-"D. Amazon EC2"
+- "A. Amazon S3 Select"
+- "B. Amazon Athena"
+- "C. Amazon Redshift"
+- "D. Amazon EC2"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon Athena"
@@ -1171,10 +1171,10 @@
 
 95. When designing AWS workloads to be operational even when there are component failures what is an AWS recommended practice?
 
-"A. Perform quarterly disaster recovery tests."
-"B. Place the core component in the us-east-1 Region."
-"C. Design for automatic failover to healthy resources."
-"D. Design workloads to fit on a single Amazon EC2 instance."
+- "A. Perform quarterly disaster recovery tests."
+- "B. Place the core component in the us-east-1 Region."
+- "C. Design for automatic failover to healthy resources."
+- "D. Design workloads to fit on a single Amazon EC2 instance."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Design for automatic failover to healthy resources."
@@ -1183,10 +1183,10 @@
 
 96. A company wants to protect its AWS Cloud information systems and assets while performing risk assessment and mitigation tasks.
 
-"A. Reliability"
-"B. Security"
-"C. Operational Excellence"
-"D. Performance Efficiency"
+- "A. Reliability"
+- "B. Security"
+- "C. Operational Excellence"
+- "D. Performance Efficiency"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Security"
@@ -1195,11 +1195,11 @@
 
 97. A company has an application that uses AWS services. During scaling events the company wants to keep the application's usage within AWS service quotas.
 
-"A. Service Quotas console"
-"B. AWS Trusted Advisor"
-"C. AWS Systems Manager"
-"D. AWS Shield"
-"E. AWS Cost Explorer"
+- "A. Service Quotas console"
+- "B. AWS Trusted Advisor"
+- "C. AWS Systems Manager"
+- "D. AWS Shield"
+- "E. AWS Cost Explorer"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["A. Service Quotas console" "B. AWS Trusted Advisor"]
@@ -1208,10 +1208,10 @@
 
 98. Which AWS service is a key-value database that delivers single-digit millisecond latency at any scale?
 
-"A. Amazon DynamoDB"
-"B. Amazon Aurora"
-"C. Amazon DocumentDB (with MongoDB compatibility)"
-"D. Amazon Neptune"
+- "A. Amazon DynamoDB"
+- "B. Amazon Aurora"
+- "C. Amazon DocumentDB (with MongoDB compatibility)"
+- "D. Amazon Neptune"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon DynamoDB"
@@ -1220,10 +1220,10 @@
 
 99. Which AWS Cloud feature enables users to have the ability to pay based on current needs rather than projected needs?
 
-"A. AWS Budgets"
-"B. Pay-as-you-go pricing"
-"C. Volume discounts"
-"D. Savings Plans"
+- "A. AWS Budgets"
+- "B. Pay-as-you-go pricing"
+- "C. Volume discounts"
+- "D. Savings Plans"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Pay-as-you-go pricing"
@@ -1232,10 +1232,10 @@
 
 100. Which AWS service or tool helps centrally manage billing and enable controlled access to resources across AWS accounts?
 
-"A. AWS Identity and Access Management (IAM)"
-"B. AWS Organizations"
-"C. AWS Cost Explorer"
-"D. AWS Budgets"
+- "A. AWS Identity and Access Management (IAM)"
+- "B. AWS Organizations"
+- "C. AWS Cost Explorer"
+- "D. AWS Budgets"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Organizations"
@@ -1244,11 +1244,11 @@
 
 101. Which of the following are components of an AWS Site-to-Site VPN connection? (Select TWO.)
 
-"A. AWS Storage Gateway"
-"B. Virtual private gateway"
-"C. NAT gateway"
-"D. Customer gateway"
-"E. Internet Gateway"
+- "A. AWS Storage Gateway"
+- "B. Virtual private gateway"
+- "C. NAT gateway"
+- "D. Customer gateway"
+- "E. Internet Gateway"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. Virtual private gateway" "D. Customer gateway"]
@@ -1257,10 +1257,10 @@
 
 102. Which task is a customer responsibility according to the AWS Shared Responsibility Model?
 
-"A. Managing guest operating systems"
-"B. Maintaining infrastructure devices configuration"
-"C. Managing host operating systems and virtualization"
-"D. Maintaining software that powers Availability Zones"
+- "A. Managing guest operating systems"
+- "B. Maintaining infrastructure devices configuration"
+- "C. Managing host operating systems and virtualization"
+- "D. Maintaining software that powers Availability Zones"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Managing guest operating systems"
@@ -1269,10 +1269,10 @@
 
 103. A company needs to migrate all its development teams to a cloud-based integrated development environment (IDE).
 
-"A. AWS CodeBuild"
-"B. AWS Cloud9"
-"C. AWS OpsWorks"
-"D. AWS Cloud Development Kit (AWS CDK)"
+- "A. AWS CodeBuild"
+- "B. AWS Cloud9"
+- "C. AWS OpsWorks"
+- "D. AWS Cloud Development Kit (AWS CDK)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Cloud9"
@@ -1281,10 +1281,10 @@
 
 104. Which of the following is a recommended design principle of the AWS Well-Architected Framework?
 
-"A. Reduce downtime by making changes to infrastructure infrequently and in large increments."
-"B. Spend time to configure infrastructure manually."
-"C. Learn to improve from operational failures."
-"D. Use monolithic application design for centralization."
+- "A. Reduce downtime by making changes to infrastructure infrequently and in large increments."
+- "B. Spend time to configure infrastructure manually."
+- "C. Learn to improve from operational failures."
+- "D. Use monolithic application design for centralization."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Learn to improve from operational failures."
@@ -1293,10 +1293,10 @@
 
 105. Which AWS database service provides in-memory data store?
 
-"A. Amazon DynamoDB"
-"B. Amazon ElastiCache"
-"C. Amazon RDS"
-"D. Amazon Timestream"
+- "A. Amazon DynamoDB"
+- "B. Amazon ElastiCache"
+- "C. Amazon RDS"
+- "D. Amazon Timestream"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon ElastiCache"
@@ -1305,10 +1305,10 @@
 
 106. Which AWS service should be used to store database credentials with the highest security?
 
-"A. AWS Identity and Access Management (IAM)"
-"B. AWS Secrets Manager"
-"C. Amazon S3"
-"D. AWS Key Management Service (AWS KMS)"
+- "A. AWS Identity and Access Management (IAM)"
+- "B. AWS Secrets Manager"
+- "C. Amazon S3"
+- "D. AWS Key Management Service (AWS KMS)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Secrets Manager"
@@ -1317,10 +1317,10 @@
 
 147. A company has an online shopping website and wants to store customer credit card data. The company must comply with Payment Card Industry (PCI) standards.
 
-"A. Amazon Cloud Directory"
-"B. AWS Artifact"
-"C. AWS Trusted Advisor"
-"D. Amazon Inspector"
+- "A. Amazon Cloud Directory"
+- "B. AWS Artifact"
+- "C. AWS Trusted Advisor"
+- "D. Amazon Inspector"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Artifact"
@@ -1329,10 +1329,10 @@
 
 108. A company wants to centrally manage security policies and billing services in a multi-account AWS environment. Which AWS service should the company use to meet these requirements?
 
-"A. AWS Identity and Access Management (IAM)"
-"B. AWS Organizations"
-"C. AWS Resource Access Manager (AWS RAM)"
-"D. AWS Config"
+- "A. AWS Identity and Access Management (IAM)"
+- "B. AWS Organizations"
+- "C. AWS Resource Access Manager (AWS RAM)"
+- "D. AWS Config"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Organizations"
@@ -1341,10 +1341,10 @@
 
 109. A company is hosting a web application in a Docker container on Amazon EC2. AWS is responsible for which of the following tasks?
 
-"A. Scaling the web application and services developed with Docker"
-"B. Provisioning or scheduling containers to run on clusters and maintaining their availability"
-"C. Performing hardware maintenance in AWS facilities that run the AWS Cloud"
-"D. Managing the guest operating system including updates and security patches"
+- "A. Scaling the web application and services developed with Docker"
+- "B. Provisioning or scheduling containers to run on clusters and maintaining their availability"
+- "C. Performing hardware maintenance in AWS facilities that run the AWS Cloud"
+- "D. Managing the guest operating system including updates and security patches"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Performing hardware maintenance in AWS facilities that run the AWS Cloud"
@@ -1353,10 +1353,10 @@
 
 110. When a user wants to use their own per-socket per-core or per-VM software licenses for a Microsoft Windows Server running on AWS which Amazon EC2 instance type is required?
 
-"A. Spot Instances"
-"B. Dedicated Instances"
-"C. Dedicated Hosts"
-"D. Reserved Instances"
+- "A. Spot Instances"
+- "B. Dedicated Instances"
+- "C. Dedicated Hosts"
+- "D. Reserved Instances"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Dedicated Hosts"
@@ -1365,10 +1365,10 @@
 
 111. Which AWS service or feature provides protection against HTTP attacks for users running public-facing web applications?
 
-"A. Security Groups"
-"B. Network ACLs"
-"C. AWS Shield Standard"
-"D. AWS WAF"
+- "A. Security Groups"
+- "B. Network ACLs"
+- "C. AWS Shield Standard"
+- "D. AWS WAF"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS WAF"
@@ -1377,10 +1377,10 @@
 
 112. A company wants to deploy and manage a Docker-based application on AWS.
 
-"A. An open-source Docker orchestrator on Amazon EC2 instances"
-"B. AWS AppSync"
-"C. Amazon Elastic Container Registry (Amazon ECR)"
-"D. Amazon Elastic Container Service (Amazon ECS)"
+- "A. An open-source Docker orchestrator on Amazon EC2 instances"
+- "B. AWS AppSync"
+- "C. Amazon Elastic Container Registry (Amazon ECR)"
+- "D. Amazon Elastic Container Service (Amazon ECS)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon Elastic Container Service (Amazon ECS)"
@@ -1389,10 +1389,10 @@
 
 113. A cloud engineer needs to download AWS security and compliance documents for a future audit.
 
-"A. AWS Trusted Advisor"
-"B. AWS Artifact"
-"C. AWS Well-Architected Tool"
-"D. AWS Systems Manager"
+- "A. AWS Trusted Advisor"
+- "B. AWS Artifact"
+- "C. AWS Well-Architected Tool"
+- "D. AWS Systems Manager"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Artifact"
@@ -1401,10 +1401,10 @@
 
 114. A company's application stores data in an Amazon S3 bucket. The company has an AWS Lambda function that processes data in the S3 bucket. The company needs to invoke the function once per day at a specific time.
 
-"A. AWS Managed Services (AMS)"
-"B. AWS CodeStar"
-"C. Amazon EventBridge"
-"D. AWS Step Functions"
+- "A. AWS Managed Services (AMS)"
+- "B. AWS CodeStar"
+- "C. Amazon EventBridge"
+- "D. AWS Step Functions"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon EventBridge"
@@ -1413,10 +1413,10 @@
 
 115. A company wants to establish a security layer in their VPC that will act as a firewall to control subnet traffic.
 
-"A. Routing tables"
-"B. Network access control lists (network ACLs)"
-"C. Security groups"
-"D. Amazon GuardDuty"
+- "A. Routing tables"
+- "B. Network access control lists (network ACLs)"
+- "C. Security groups"
+- "D. Amazon GuardDuty"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Security groups"
@@ -1425,10 +1425,10 @@
 
 116. A company is migrating an on-premises relational database server to the AWS cloud and wants to minimize the administrative overhead of database maintenance tasks.
 
-"A. Amazon DynamoDB"
-"B. Amazon EC2"
-"C. Amazon Redshift"
-"D. Amazon RDS"
+- "A. Amazon DynamoDB"
+- "B. Amazon EC2"
+- "C. Amazon Redshift"
+- "D. Amazon RDS"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon RDS"
@@ -1437,10 +1437,10 @@
 
 117. A cloud professional is analyzing the performance and usage of Amazon EC2 instances to deliver recommendations for potential cost savings.
 
-"A. Auto Scaling"
-"B. Right Sizing"
-"C. Load Balancing"
-"D. High Availability"
+- "A. Auto Scaling"
+- "B. Right Sizing"
+- "C. Load Balancing"
+- "D. High Availability"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Right Sizing"
@@ -1449,11 +1449,11 @@
 
 118. A company recently migrated to the AWS cloud and needs to determine if its newly imported Amazon EC2 instances are properly sized and typed.
 
-"A. AWS Auto Scaling"
-"B. AWS Control Tower"
-"C. AWS Trusted Advisor"
-"D. AWS Compute Optimizer"
-"E. Amazon Forecast"
+- "A. AWS Auto Scaling"
+- "B. AWS Control Tower"
+- "C. AWS Trusted Advisor"
+- "D. AWS Compute Optimizer"
+- "E. Amazon Forecast"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["C. AWS Trusted Advisor" "D. AWS Compute Optimizer"]
@@ -1462,10 +1462,10 @@
 
 119. Which AWS support plan assigns an AWS concierge agent to a company's account?
 
-"A. AWS Basic Support"
-"B. AWS Developer Support"
-"C. AWS Business Support"
-"D. AWS Enterprise Support"
+- "A. AWS Basic Support"
+- "B. AWS Developer Support"
+- "C. AWS Business Support"
+- "D. AWS Enterprise Support"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Enterprise Support"
@@ -1474,10 +1474,10 @@
 
 120. What is an advantage of AWS cloud computing that minimizes variable costs?
 
-"A. High Availability"
-"B. Economies of Scale"
-"C. Global Reach"
-"D. Agility"
+- "A. High Availability"
+- "B. Economies of Scale"
+- "C. Global Reach"
+- "D. Agility"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Economies of Scale"
@@ -1486,10 +1486,10 @@
 
 121. Which of the following is an AWS value proposition that describes a user's ability to scale infrastructure based on demand?
 
-"A. Speed of Innovation"
-"B. Elasticity of Resources"
-"C. Decoupled Architecture"
-"D. Global Deployment"
+- "A. Speed of Innovation"
+- "B. Elasticity of Resources"
+- "C. Decoupled Architecture"
+- "D. Global Deployment"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Elasticity of Resources"
@@ -1498,10 +1498,10 @@
 
 122. Which of the following is available to a company that has an AWS Business Support plan?
 
-"A. AWS concierge support"
-"B. AWS DDoS Response Team (DRT)"
-"C. AWS Technical Account Manager (TAM)"
-"D. AWS Health API"
+- "A. AWS concierge support"
+- "B. AWS DDoS Response Team (DRT)"
+- "C. AWS Technical Account Manager (TAM)"
+- "D. AWS Health API"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Health API"
@@ -1510,10 +1510,10 @@
 
 123. A company has an application with robust hardware requirements. The application must be accessed by students who are using lightweight low-cost laptops.
 
-"A. Amazon AppStream 2.0"
-"B. AWS AppSync"
-"C. Amazon WorkLink"
-"D. AWS Elastic Beanstalk"
+- "A. Amazon AppStream 2.0"
+- "B. AWS AppSync"
+- "C. Amazon WorkLink"
+- "D. AWS Elastic Beanstalk"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon AppStream 2.0"
@@ -1522,10 +1522,10 @@
 
 124. What is an Availability Zone?
 
-"A. A location where users can deploy selected AWS services where there is currently no AWS Region"
-"B. One or more discrete data centers with redundant power networking and connectivity"
-"C. One or more server clusters onto which new workloads can be deployed"
-"D. A fast content delivery network (CDN) that securely delivers data videos applications and APIs to users globally"
+- "A. A location where users can deploy selected AWS services where there is currently no AWS Region"
+- "B. One or more discrete data centers with redundant power networking and connectivity"
+- "C. One or more server clusters onto which new workloads can be deployed"
+- "D. A fast content delivery network (CDN) that securely delivers data videos applications and APIs to users globally"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. One or more discrete data centers with redundant power networking and connectivity"
@@ -1534,26 +1534,26 @@
 
 125. Which of the following are design principles for reliability in the AWS cloud? (Select TWO)
 
-"A. Build architectures with tightly coupled resources."
-"B. Use AWS Trusted Advisor to meet security best practices."
-"C. Use automation to recover from failure immediately."
-"D. Properly size Amazon EC2 instances to ensure optimal performance."
-"E. Simulate failures to test recovery processes."
+- "A. Build architectures with tightly coupled resources."
+- "B. Use AWS Trusted Advisor to meet security best practices."
+- "C. Use automation to recover from failure immediately."
+- "D. Properly size Amazon EC2 instances to ensure optimal performance."
+- "E. Simulate failures to test recovery processes."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "C. Use automation to recover from failure immediately."
-"E. Simulate failures to test recovery processes."
+- "E. Simulate failures to test recovery processes."
 ]
 "explanation": "By using automation systems can detect and remediate failures without human intervention reducing the impact and duration of failures and improving system availability. Regularly testing recovery procedures using simulated scenarios can help identify gaps and improve the recovery process."
 </details>
 
 126. Who is responsible for decommissioning underlying storage devices that reach the end of their useful life used to host data on AWS?
 
-"A. Customer"
-"B. AWS"
-"C. Account creator"
-"D. Auditing team"
+- "A. Customer"
+- "B. AWS"
+- "C. Account creator"
+- "D. Auditing team"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS"
@@ -1562,10 +1562,10 @@
 
 127. Which AWS service requires the customer to update the guest operating system?
 
-"A. AWS Lambda"
-"B. Amazon OpenSearch Service"
-"C. Amazon EC2"
-"D. Amazon ElastiCache"
+- "A. AWS Lambda"
+- "B. Amazon OpenSearch Service"
+- "C. Amazon EC2"
+- "D. Amazon ElastiCache"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon EC2"
@@ -1574,10 +1574,10 @@
 
 128. Which perspective includes foundational capabilities of the AWS Cloud Adoption Framework?
 
-"A. Sustainability"
-"B. Operations"
-"C. Performance Efficiency"
-"D. Reliability"
+- "A. Sustainability"
+- "B. Operations"
+- "C. Performance Efficiency"
+- "D. Reliability"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Operations"
@@ -1586,10 +1586,10 @@
 
 129. Which AWS cloud design principle is followed when using AWS CloudTrail?
 
-"A. Automatically recover"
-"B. Perform operations as code"
-"C. Measure efficiency"
-"D. Ensure traceability"
+- "A. Automatically recover"
+- "B. Perform operations as code"
+- "C. Measure efficiency"
+- "D. Ensure traceability"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Ensure traceability"
@@ -1598,10 +1598,10 @@
 
 130. Which AWS service offers a global CDN for secure delivery of content with high speed and low latency?
 
-"A. Amazon EC2"
-"B. Amazon CloudFront"
-"C. Amazon CloudWatch"
-"D. AWS CloudFormation"
+- "A. Amazon EC2"
+- "B. Amazon CloudFront"
+- "C. Amazon CloudWatch"
+- "D. AWS CloudFormation"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon CloudFront"
@@ -1610,10 +1610,10 @@
 
 131. For a stable one-year production workload which AWS instance purchase option is the most cost-effective?
 
-"A. Dedicated Hosts"
-"B. Reserved Instances"
-"C. On-Demand Instances"
-"D. Spot Instances"
+- "A. Dedicated Hosts"
+- "B. Reserved Instances"
+- "C. On-Demand Instances"
+- "D. Spot Instances"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Reserved Instances"
@@ -1622,10 +1622,10 @@
 
 132. To access a report on the environmental impact of AWS usage which service or feature should a company use?
 
-"A. AWS Organizations"
-"B. IAM Policy"
-"C. AWS Billing Console"
-"D. Amazon SNS"
+- "A. AWS Organizations"
+- "B. IAM Policy"
+- "C. AWS Billing Console"
+- "D. Amazon SNS"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. AWS Billing Console"
@@ -1634,11 +1634,11 @@
 
 133. Which options are perspectives that include foundational capabilities of the AWS Cloud Adoption Framework? (Select TWO.)
 
-"A. Sustainability"
-"B. Security"
-"C. Operations"
-"D. Performance Efficiency"
-"E. Reliability"
+- "A. Sustainability"
+- "B. Security"
+- "C. Operations"
+- "D. Performance Efficiency"
+- "E. Reliability"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["C. Operations" "D. Performance Efficiency"]
@@ -1647,10 +1647,10 @@
 
 134. To optimize long-term compute costs of AWS Lambda functions and Amazon EC2 instances which AWS purchase option should be chosen?
 
-"A. Dedicated Hosts"
-"B. Compute Savings Plans"
-"C. Reserved Instances"
-"D. Spot Instances"
+- "A. Dedicated Hosts"
+- "B. Compute Savings Plans"
+- "C. Reserved Instances"
+- "D. Spot Instances"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Compute Savings Plans"
@@ -1659,10 +1659,10 @@
 
 135. For cloud-compatible in-memory data store which AWS service should be used?
 
-"A. Amazon DynamoDB"
-"B. Amazon ElastiCache"
-"C. Amazon EBS"
-"D. Amazon Redshift"
+- "A. Amazon DynamoDB"
+- "B. Amazon ElastiCache"
+- "C. Amazon EBS"
+- "D. Amazon Redshift"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon ElastiCache"
@@ -1671,10 +1671,10 @@
 
 136. Which AWS service or tool provides on-demand access to AWS security and compliance reports?
 
-"A. AWS Artifact"
-"B. AWS Trusted Advisor"
-"C. Amazon Inspector"
-"D. AWS Billing Console"
+- "A. AWS Artifact"
+- "B. AWS Trusted Advisor"
+- "C. Amazon Inspector"
+- "D. AWS Billing Console"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Artifact"
@@ -1683,10 +1683,10 @@
 
 137. Which AWS support plan includes concierge service a designated technical account manager (TAM) and 24/7 technical support?
 
-"A. AWS Basic Support"
-"B. AWS Enterprise Support"
-"C. AWS Business Support"
-"D. AWS Developer Support"
+- "A. AWS Basic Support"
+- "B. AWS Enterprise Support"
+- "C. AWS Business Support"
+- "D. AWS Developer Support"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Enterprise Support"
@@ -1695,10 +1695,10 @@
 
 138. To securely deliver static files globally which AWS solution should be used?
 
-"A. Amazon Kinesis Data Streams"
-"B. Amazon CloudFront with Amazon S3"
-"C. Amazon EC2 instances with an Application Load Balancer"
-"D. Amazon EFS"
+- "A. Amazon Kinesis Data Streams"
+- "B. Amazon CloudFront with Amazon S3"
+- "C. Amazon EC2 instances with an Application Load Balancer"
+- "D. Amazon EFS"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon CloudFront with Amazon S3"
@@ -1707,10 +1707,10 @@
 
 139. Which design principle is included in the operational excellence pillar of the AWS Well-Architected Framework?
 
-"A. Create annotated documentation"
-"B. Anticipate failure"
-"C. Ensure performance efficiency"
-"D. Optimize costs"
+- "A. Create annotated documentation"
+- "B. Anticipate failure"
+- "C. Ensure performance efficiency"
+- "D. Optimize costs"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Create annotated documentation"
@@ -1719,10 +1719,10 @@
 
 140. To migrate Microsoft SQL Server from on-premises to the AWS cloud with reduced management overhead which AWS service should be used?
 
-"A. Amazon Elastic Container Service"
-"B. Amazon SageMaker"
-"C. Amazon RDS"
-"D. Amazon Athena"
+- "A. Amazon Elastic Container Service"
+- "B. Amazon SageMaker"
+- "C. Amazon RDS"
+- "D. Amazon Athena"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon RDS"
@@ -1731,10 +1731,10 @@
 
 141. In the AWS Shared Responsibility Model what does 'security of the cloud' refer to?
 
-"A. Availability of AWS services"
-"B. Security of cloud infrastructure"
-"C. Password policies for IAM users"
-"D. Security of customer environments"
+- "A. Availability of AWS services"
+- "B. Security of cloud infrastructure"
+- "C. Password policies for IAM users"
+- "D. Security of customer environments"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Security of cloud infrastructure"
@@ -1743,10 +1743,10 @@
 
 142. For a shopping application that requires a managed database service for data storage which AWS service should be used?
 
-"A. Amazon RDS"
-"B. Amazon Redshift"
-"C. Amazon ElastiCache"
-"D. Amazon Neptune"
+- "A. Amazon RDS"
+- "B. Amazon Redshift"
+- "C. Amazon ElastiCache"
+- "D. Amazon Neptune"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon RDS"
@@ -1755,10 +1755,10 @@
 
 143. Which AWS service or tool helps companies measure the environmental impact of their AWS usage?
 
-"A. AWS Customer Carbon Footprint Tool"
-"B. AWS Compute Optimizer"
-"C. Sustainability Pillar"
-"D. OS-Climate"
+- "A. AWS Customer Carbon Footprint Tool"
+- "B. AWS Compute Optimizer"
+- "C. Sustainability Pillar"
+- "D. OS-Climate"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Customer Carbon Footprint Tool"
@@ -1767,10 +1767,10 @@
 
 144. To deploy monitoring applications closest to factory machines with the least latency which AWS solution should be used?
 
-"A. AWS Outposts"
-"B. Amazon EC2"
-"C. AWS App Runner"
-"D. AWS Batch"
+- "A. AWS Outposts"
+- "B. Amazon EC2"
+- "C. AWS App Runner"
+- "D. AWS Batch"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Outposts"
@@ -1779,43 +1779,43 @@
 
 145. To improve sustainability impact which recommended practices should a company implement? (Select TWO.)
 
-"A. Scale infrastructure with user load"
-"B. Maximize distance between workloads and user locations"
-"C. Eliminate unused assets"
-"D. Scale resources with excess capacity"
-"E. Scale infrastructure based on user count"
+- "A. Scale infrastructure with user load"
+- "B. Maximize distance between workloads and user locations"
+- "C. Eliminate unused assets"
+- "D. Scale resources with excess capacity"
+- "E. Scale infrastructure based on user count"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Scale infrastructure with user load"
-"C. Eliminate unused assets"
-]
-"explanation": "Scaling infrastructure with user load and eliminating unused assets help reduce waste and improve sustainability."
+- "A. Scale infrastructure with user load"
+- "C. Eliminate unused assets"
+- ]
+- "explanation": "Scaling infrastructure with user load and eliminating unused assets help reduce waste and improve sustainability."
 </details>
 
 146. In the AWS Shared Responsibility Model which tasks are AWS's responsibility? (Select TWO.)
 
-"A. Configure IAM"
-"B. Configure EC2 instance security groups"
-"C. Secure access to AWS facilities"
-"D. Apply patches to applications on EC2 instances"
-"E. Maintain infrastructure"
+- "A. Configure IAM"
+- "B. Configure EC2 instance security groups"
+- "C. Secure access to AWS facilities"
+- "D. Apply patches to applications on EC2 instances"
+- "E. Maintain infrastructure"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "C. Secure access to AWS facilities"
-"E. Maintain infrastructure"
+- "E. Maintain infrastructure"
 ]
 "explanation": "AWS is responsible for securing physical access to facilities and maintaining infrastructure in the Shared Responsibility Model."
 </details>
 
 147. In which categories does AWS Trusted Advisor provide recommended actions? (Select TWO.)
 
-"A. Operating system patches"
-"B. Cost optimization"
-"C. Repetitive tasks"
-"D. Service quotas"
-"E. Account activity logs"
+- "A. Operating system patches"
+- "B. Cost optimization"
+- "C. Repetitive tasks"
+- "D. Service quotas"
+- "E. Account activity logs"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. Cost optimization" "D. Service quotas"]
@@ -1824,10 +1824,10 @@
 
 148. Which AWS service is always free for users?
 
-"A. Amazon S3"
-"B. Amazon Aurora"
-"C. Amazon EC2"
-"D. AWS Identity and Access Management (IAM)"
+- "A. Amazon S3"
+- "B. Amazon Aurora"
+- "C. Amazon EC2"
+- "D. AWS Identity and Access Management (IAM)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Identity and Access Management (IAM)"
@@ -1836,10 +1836,10 @@
 
 149. A company wants to improve the global performance of its web-based e-commerce service. What should the company do to meet this requirement?
 
-"A. Change the S3 storage class to S3 Intelligent-Tiering."
-"B. Implement an Amazon CloudFront distribution to cache web server content."
-"C. Use Amazon API Gateway for the web service."
-"D. Migrate the website e-commerce servers to Amazon EC2 with enhanced networking."
+- "A. Change the S3 storage class to S3 Intelligent-Tiering."
+- "B. Implement an Amazon CloudFront distribution to cache web server content."
+- "C. Use Amazon API Gateway for the web service."
+- "D. Migrate the website e-commerce servers to Amazon EC2 with enhanced networking."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Implement an Amazon CloudFront distribution to cache web server content."
@@ -1848,10 +1848,10 @@
 
 150. Which AWS services or tools are designed to protect a workload from SQL injection cross-site scripting and DDoS attacks? (Select TWO.)
 
-"A. VPC endpoint"
-"B. AWS Shield Standard"
-"C. AWS Config"
-"D. AWS WAF"
+- "A. VPC endpoint"
+- "B. AWS Shield Standard"
+- "C. AWS Config"
+- "D. AWS WAF"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. AWS Shield Standard" "D. AWS WAF"]
@@ -1860,10 +1860,10 @@
 
 151. A company is building an application that will receive millions of database queries per second. Which AWS service will meet this need?
 
-"A. Amazon DynamoDB"
-"B. AWS Cloud9"
-"C. Amazon ElastiCache for Memcached"
-"D. Amazon Neptune"
+- "A. Amazon DynamoDB"
+- "B. AWS Cloud9"
+- "C. Amazon ElastiCache for Memcached"
+- "D. Amazon Neptune"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon DynamoDB"
@@ -1872,10 +1872,10 @@
 
 152. A company is using Amazon RDS and wants to increase the resiliency of their business-critical application. How can the company increase the resiliency of this application?
 
-"A. Implement a copy of the application in another AWS account."
-"B. Use multiple VPCs for the application."
-"C. Use multiple subnets for the application."
-"D. Use multiple Availability Zones."
+- "A. Implement a copy of the application in another AWS account."
+- "B. Use multiple VPCs for the application."
+- "C. Use multiple subnets for the application."
+- "D. Use multiple Availability Zones."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Use multiple Availability Zones."
@@ -1884,10 +1884,10 @@
 
 153. A developer needs to maintain a development environment infrastructure and a production environment in a repeatable manner. Which AWS service should the developer use to meet these requirements?
 
-"A. AWS Ground Station"
-"B. AWS Shield"
-"C. AWS IoT Device Defender"
-"D. AWS CloudFormation"
+- "A. AWS Ground Station"
+- "B. AWS Shield"
+- "C. AWS IoT Device Defender"
+- "D. AWS CloudFormation"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS CloudFormation"
@@ -1896,11 +1896,11 @@
 
 154. Which actions are examples of a company's effort to right-size their AWS resources to control cloud costs? (Select TWO.)
 
-"A. Switching from Amazon RDS to Amazon DynamoDB."
-"B. Selecting Amazon EC2 instance types based on previous utilization patterns."
-"C. Using Amazon S3 lifecycle policies to move infrequently accessed objects to lower-cost storage tiers."
-"D. Using Multi-AZ deployments for Amazon RDS."
-"E. Replacing existing Amazon EC2 instances with AWS Elastic Beanstalk."
+- "A. Switching from Amazon RDS to Amazon DynamoDB."
+- "B. Selecting Amazon EC2 instance types based on previous utilization patterns."
+- "C. Using Amazon S3 lifecycle policies to move infrequently accessed objects to lower-cost storage tiers."
+- "D. Using Multi-AZ deployments for Amazon RDS."
+- "E. Replacing existing Amazon EC2 instances with AWS Elastic Beanstalk."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
@@ -1912,10 +1912,10 @@
 
 155. A company suspects their AWS resources are being used for illegal activities. Which AWS group or team should the company notify?
 
-"A. AWS Abuse Team"
-"B. AWS Support Team"
-"C. AWS Technical Account Managers"
-"D. AWS Professional Services Team"
+- "A. AWS Abuse Team"
+- "B. AWS Support Team"
+- "C. AWS Technical Account Managers"
+- "D. AWS Professional Services Team"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Abuse Team"
@@ -1924,10 +1924,10 @@
 
 156. A company has an Amazon S3 bucket containing images of scanned financial invoices. The company is building an AI-based application on AWS to identify and read the total balance values on the invoices. Which AWS service will meet these requirements?
 
-"A. Amazon Forecast"
-"B. Amazon Textract"
-"C. Amazon Rekognition"
-"D. Amazon Lex"
+- "A. Amazon Forecast"
+- "B. Amazon Textract"
+- "C. Amazon Rekognition"
+- "D. Amazon Lex"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon Textract"
@@ -1936,10 +1936,10 @@
 
 157. Which benefit of the AWS cloud helps companies to achieve lower usage costs due to the aggregate usage of all AWS users?
 
-"A. No need to guess capacity"
-"B. Ability to go global in minutes"
-"C. Economies of scale"
-"D. Increased speed and agility"
+- "A. No need to guess capacity"
+- "B. Ability to go global in minutes"
+- "C. Economies of scale"
+- "D. Increased speed and agility"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Economies of scale"
@@ -1948,10 +1948,10 @@
 
 158. (BONUS QUESTION SAA-03) A company is hosting a web application on AWS using a single Amazon EC2 instance that stores user-uploaded documents on an Amazon EBS volume. For better scalability and availability the company duplicated the architecture and created a second EC2 instance and EBS volume in another Availability Zone placing both behind an Application Load Balancer. After completing this change users reported that each time they refreshed the website they could see a subset of their documents or the other but never all documents at the same time. What should the solutions architect propose to ensure users see all their documents at once?
 
-"A. Copy the data so both EBS volumes contain all documents"
-"B. Configure the Application Load Balancer to route a user to the server with the documents"
-"C. Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS"
-"D. Configure the Application Load Balancer to send the request to both servers. Return each document from the correct server"
+- "A. Copy the data so both EBS volumes contain all documents"
+- "B. Configure the Application Load Balancer to route a user to the server with the documents"
+- "C. Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS"
+- "D. Configure the Application Load Balancer to send the request to both servers. Return each document from the correct server"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS"
@@ -1960,25 +1960,25 @@
 
 159. A company is running workloads for multiple departments within a single VPC. The company needs to be able to bill each department for their resource usage. Which action should the company take to accomplish this goal with the LEAST operational overhead?
 
-"A. Add a department tag to each resource and configure cost allocation tags."
-"B. Move each department's resources to their own VPC."
-"C. Move each department's resources to their own AWS account."
-"D. Use AWS Organizations to get a billing report for each department."
+- "A. Add a department tag to each resource and configure cost allocation tags."
+- "B. Move each department's resources to their own VPC."
+- "C. Move each department's resources to their own AWS account."
+- "D. Use AWS Organizations to get a billing report for each department."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Add a department tag to each resource and configure cost allocation tags."
-]
-"explanation": "Adding a department tag to each resource and configuring cost allocation tags is an action that can help you achieve the goal of billing each department for their resource usage with the least operational overhead."
+- "A. Add a department tag to each resource and configure cost allocation tags."
+- ]
+- "explanation": "Adding a department tag to each resource and configuring cost allocation tags is an action that can help you achieve the goal of billing each department for their resource usage with the - least operational overhead."
 </details>
 
 160. A company needs a repository that stores source code. The company needs a way to update running software when the code changes. Which combination of AWS services meets these requirements? (Select TWO.)
 
-"A. AWS CodeCommit"
-"B. AWS CodeDeploy"
-"C. Amazon DynamoDB"
-"D. Amazon S3"
-"E. Amazon Elastic Container Service (Amazon ECS)"
+- "A. AWS CodeCommit"
+- "B. AWS CodeDeploy"
+- "C. Amazon DynamoDB"
+- "D. Amazon S3"
+- "E. Amazon Elastic Container Service (Amazon ECS)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["A. AWS CodeCommit" "B. AWS CodeDeploy"]
@@ -1987,10 +1987,10 @@
 
 161. A company has an application workload that is designed to be stateless and can withstand occasional interruptions. The application performs massively parallel computations. Which Amazon EC2 instance pricing model should the company choose to reduce costs?
 
-"A. On-Demand Instances"
-"B. Spot Instances"
-"C. Reserved Instances"
-"D. Dedicated Instances"
+- "A. On-Demand Instances"
+- "B. Spot Instances"
+- "C. Reserved Instances"
+- "D. Dedicated Instances"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Spot Instances"
@@ -1999,10 +1999,10 @@
 
 162. A manufacturing company has a mission-critical application that runs in a remote location with a slow internet connection. The company wants to migrate the workload to AWS. The application is latency-sensitive and prone to connectivity disruptions. Which AWS service or feature should the company use to meet these requirements?
 
-"A. Availability Zones"
-"B. AWS Local Zones"
-"C. AWS Wavelength"
-"D. AWS Outposts"
+- "A. Availability Zones"
+- "B. AWS Local Zones"
+- "C. AWS Wavelength"
+- "D. AWS Outposts"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Outposts"
@@ -2011,10 +2011,10 @@
 
 163. Which AWS service is designed to help users orchestrate a workflow process for a set of AWS Lambda functions?
 
-"A. Amazon DynamoDB"
-"B. AWS CodePipeline"
-"C. AWS Batch"
-"D. AWS Step Functions"
+- "A. Amazon DynamoDB"
+- "B. AWS CodePipeline"
+- "C. AWS Batch"
+- "D. AWS Step Functions"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Step Functions"
@@ -2023,10 +2023,10 @@
 
 165. A company provides a software as a service (SaaS) application. The company has a new customer that is based in a different country. The new customer's data needs to be hosted in that country. Which AWS service or infrastructure component should the company use to meet this requirement?
 
-"A. AWS Shield"
-"B. Amazon S3 Object Lock"
-"C. AWS Regions"
-"D. Placement groups"
+- "A. AWS Shield"
+- "B. Amazon S3 Object Lock"
+- "C. AWS Regions"
+- "D. Placement groups"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. AWS Regions"
@@ -2035,10 +2035,10 @@
 
 166. A company needs to host a web server on Amazon EC2 instances for at least 1 year. The web server cannot tolerate interruptions. Which EC2 instance purchase option will meet these requirements in the MOST cost-effective way?
 
-"A. On-Demand Instances"
-"B. Reserved Instances with Partial Upfront payment"
-"C. Spot Instances"
-"D. Reserved Instances with No Upfront payment"
+- "A. On-Demand Instances"
+- "B. Reserved Instances with Partial Upfront payment"
+- "C. Spot Instances"
+- "D. Reserved Instances with No Upfront payment"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. Reserved Instances with Partial Upfront payment"]
@@ -2047,10 +2047,10 @@
 
 167. Which group shares responsibility with AWS for the security and compliance of AWS accounts and resources?
 
-"A. Outsourced vendors"
-"B. Customers"
-"C. Reseller partners"
-"D. Internet providers"
+- "A. Outsourced vendors"
+- "B. Customers"
+- "C. Reseller partners"
+- "D. Internet providers"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. Customers"]
@@ -2059,26 +2059,26 @@
 
 168. A company has set up a VPC in its AWS account and created a subnet in the VPC. The company wants to make the subnet public. Which AWS resources should the company use to meet this requirement? (Select TWO.)
 
-"A. Amazon VPC internet gateway"
-"B. Amazon VPC NAT gateway"
-"C. Amazon VPC route tables"
-"D. Amazon VPC network ACLs"
-"E. Amazon EC2 security groups"
+- "A. Amazon VPC internet gateway"
+- "B. Amazon VPC NAT gateway"
+- "C. Amazon VPC route tables"
+- "D. Amazon VPC network ACLs"
+- "E. Amazon EC2 security groups"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Amazon VPC internet gateway"
-"C. Amazon VPC route tables"
-]
-"explanation": "To make a subnet public the company needs to use an Amazon VPC internet gateway and configure appropriate route tables."
+- "A. Amazon VPC internet gateway"
+- "C. Amazon VPC route tables"
+- ]
+- "explanation": "To make a subnet public the company needs to use an Amazon VPC internet gateway and configure appropriate route tables."
 </details>
 
 169. Which AWS tool or service should a company use to forecast AWS spending?
 
-"A. Amazon DevPay"
-"B. AWS Organizations"
-"C. AWS Trusted Advisor"
-"D. Cost Explorer"
+- "A. Amazon DevPay"
+- "B. AWS Organizations"
+- "C. AWS Trusted Advisor"
+- "D. Cost Explorer"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["D. Cost Explorer"]
@@ -2087,10 +2087,10 @@
 
 170. Which of the following is a customer responsibility according to the AWS Shared Responsibility Model?
 
-"A. Identity and access management"
-"B. Hard drive disposal"
-"C. Data center hardware security"
-"D. Availability Zone security"
+- "A. Identity and access management"
+- "B. Hard drive disposal"
+- "C. Data center hardware security"
+- "D. Availability Zone security"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["A. Identity and access management"]
@@ -2099,11 +2099,11 @@
 
 171. Which capabilities are in the platform perspective of the AWS Cloud Adoption Framework (AWS CAF)? (Select TWO.)
 
-"A. Performance and capacity management"
-"B. Data engineering"
-"C. Continuous integration and continuous delivery (CI/CD)"
-"D. Infrastructure protection"
-"E. Change and release management"
+- "A. Performance and capacity management"
+- "B. Data engineering"
+- "C. Continuous integration and continuous delivery (CI/CD)"
+- "D. Infrastructure protection"
+- "E. Change and release management"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
@@ -2115,10 +2115,10 @@
 
 172. A company wants to query their server logs for insights on their customers' experiences. Which AWS service will store this data MOST cost-effectively?
 
-"A. Amazon Aurora"
-"B. Amazon Elastic File System (Amazon EFS)"
-"C. Amazon Elastic Block Store (Amazon EBS)"
-"D. Amazon S3"
+- "A. Amazon Aurora"
+- "B. Amazon Elastic File System (Amazon EFS)"
+- "C. Amazon Elastic Block Store (Amazon EBS)"
+- "D. Amazon S3"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon S3"
@@ -2127,10 +2127,10 @@
 
 173. A company wants to generate a list of IAM users. The company also wants to view the status of various credentials associated with the users such as passwords access keys and multi-factor authentication (MFA) devices. Which AWS service or feature will meet these requirements?
 
-"A. IAM credential report"
-"B. AWS IAM Identity Center (AWS Single Sign-On)"
-"C. AWS Identity and Access Management Access Analyzer"
-"D. AWS Cost and Usage Report"
+- "A. IAM credential report"
+- "B. AWS IAM Identity Center (AWS Single Sign-On)"
+- "C. AWS Identity and Access Management Access Analyzer"
+- "D. AWS Cost and Usage Report"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. IAM credential report"
@@ -2139,10 +2139,10 @@
 
 174. Which AWS service provides a single place to track the progress of application migrations?
 
-"A. AWS Application Discovery Service"
-"B. AWS Application Migration Service"
-"C. AWS Service Catalog"
-"D. AWS Migration Hub"
+- "A. AWS Application Discovery Service"
+- "B. AWS Application Migration Service"
+- "C. AWS Service Catalog"
+- "D. AWS Migration Hub"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Migration Hub"
@@ -2151,10 +2151,10 @@
 
 175. A company runs an on-premises MySQL database. The company wants to run a copy of this database in the AWS cloud. Which AWS service would support this workload?
 
-"A. Amazon RDS"
-"B. Amazon Neptune"
-"C. Amazon ElastiCache for Redis"
-"D. Amazon Quantum Ledger Database (Amazon QLDB)"
+- "A. Amazon RDS"
+- "B. Amazon Neptune"
+- "C. Amazon ElastiCache for Redis"
+- "D. Amazon Quantum Ledger Database (Amazon QLDB)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon RDS"
@@ -2163,10 +2163,10 @@
 
 176. A company needs to implement identity management for a fleet of mobile applications running in the AWS cloud. Which AWS service will meet this requirement?
 
-"A. Amazon Cognito"
-"B. AWS Security Hub"
-"C. AWS Shield"
-"D. AWS WAF"
+- "A. Amazon Cognito"
+- "B. AWS Security Hub"
+- "C. AWS Shield"
+- "D. AWS WAF"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon Cognito"
@@ -2175,10 +2175,10 @@
 
 177. A company needs an automated vulnerability management service that continuously scans AWS workloads for software vulnerabilities. Which AWS service will meet these requirements?
 
-"A. Amazon GuardDuty"
-"B. Amazon Inspector"
-"C. AWS Security Hub"
-"D. AWS Shield"
+- "A. Amazon GuardDuty"
+- "B. Amazon Inspector"
+- "C. AWS Security Hub"
+- "D. AWS Shield"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon Inspector"
@@ -2187,19 +2187,19 @@
 
 178. Which tasks are customer responsibilities according to the AWS Shared Responsibility Model? (Select TWO.)
 
-"A. Configure the AWS-provided security group firewall."
-"B. Classify the company's assets on the AWS cloud."
-"C. Determine which Availability Zones to use for Amazon S3 buckets."
-"D. Patch or update Amazon DynamoDB."
-"E. Select Amazon EC2 instances to run AWS Lambda."
+- "A. Configure the AWS-provided security group firewall."
+- "B. Classify the company's assets on the AWS cloud."
+- "C. Determine which Availability Zones to use for Amazon S3 buckets."
+- "D. Patch or update Amazon DynamoDB."
+- "E. Select Amazon EC2 instances to run AWS Lambda."
 "F. AWS Config"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Configure the AWS-provided security group firewall."
-"B. Classify the company's assets on the AWS cloud."
-]
-"explanation": "According to the AWS Shared Responsibility Model the customer is responsible for security in the cloud which includes the tasks of configuring the AWS-provided security group firewall and classifying the company's assets on the AWS cloud."
+- "A. Configure the AWS-provided security group firewall."
+- "B. Classify the company's assets on the AWS cloud."
+- ]
+- "explanation": "According to the AWS Shared Responsibility Model the customer is responsible for security in the cloud which includes the tasks of configuring the AWS-provided security group firewall and classifying the company's assets on the AWS cloud."
 </details>
 
 179. A company wants to monitor the performance of their workload. The company wants to ensure that cloud services are delivered at a level that meets their business needs. Which perspective of the AWS Cloud Adoption Framework (AWS CAF) will meet these requirements?
@@ -2211,10 +2211,10 @@
 
 180. A company needs a managed machine learning (ML) service that can recommend products based on a customer's previous behaviors. Which AWS service meets this requirement?
 
-"A. Amazon Personalize"
-"B. Amazon SageMaker"
-"C. Amazon Pinpoint"
-"D. Amazon Comprehend"
+- "A. Amazon Personalize"
+- "B. Amazon SageMaker"
+- "C. Amazon Pinpoint"
+- "D. Amazon Comprehend"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon Personalize"
@@ -2223,10 +2223,10 @@
 
 181. What is the purpose of having an Internet gateway within a VPC?
 
-"A. Create a VPN connection to the VPC"
-"B. Allow communication between the VPC and the Internet"
-"C. Enforce bandwidth restrictions on Internet traffic"
-"D. Load balance Internet traffic across Amazon EC2 instances"
+- "A. Create a VPN connection to the VPC"
+- "B. Allow communication between the VPC and the Internet"
+- "C. Enforce bandwidth restrictions on Internet traffic"
+- "D. Load balance Internet traffic across Amazon EC2 instances"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Allow communication between the VPC and the Internet"
@@ -2235,10 +2235,10 @@
 
 182. A company is building a mobile application to provide purchase recommendations to its customers. The company wants to use a graph database as part of the purchase recommendation engine. Which AWS database service should the company choose?
 
-"A. Amazon DynamoDB"
-"B. Amazon Aurora"
-"C. Amazon Neptune"
-"D. Amazon DocumentDB (with MongoDB compatibility)"
+- "A. Amazon DynamoDB"
+- "B. Amazon Aurora"
+- "C. Amazon Neptune"
+- "D. Amazon DocumentDB (with MongoDB compatibility)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon Neptune"
@@ -2247,10 +2247,10 @@
 
 183. A company has teams with different job functions and responsibilities. The company's employees frequently change teams. The company needs to manage the employees' permissions to be appropriate for the job responsibilities. Which IAM feature should the company use to meet this requirement with the LEAST operational overhead?
 
-"A. IAM user groups"
-"B. IAM roles"
-"C. IAM instance profiles"
-"D. IAM policies for individual users"
+- "A. IAM user groups"
+- "B. IAM roles"
+- "C. IAM instance profiles"
+- "D. IAM policies for individual users"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. IAM roles"
@@ -2259,10 +2259,10 @@
 
 184. A company wants to design a reliable web application hosted on Amazon EC2. Which approach will achieve this goal?
 
-"A. Launch large EC2 instances in the same Availability Zone."
-"B. Spread EC2 instances across more than one security group."
-"C. Spread EC2 instances across more than one Availability Zone."
-"D. Use an Amazon Machine Image (AMI) from the AWS Marketplace."
+- "A. Launch large EC2 instances in the same Availability Zone."
+- "B. Spread EC2 instances across more than one security group."
+- "C. Spread EC2 instances across more than one Availability Zone."
+- "D. Use an Amazon Machine Image (AMI) from the AWS Marketplace."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Spread EC2 instances across more than one Availability Zone."
@@ -2271,10 +2271,10 @@
 
 185. What is the customer's responsibility when using AWS Lambda according to the AWS Shared Responsibility Model?
 
-"A. Manage the code within the Lambda function"
-"B. Confirm that hardware is functioning in the data center"
-"C. Apply patches to the operating system"
-"D. Turn off Lambda functions when no longer in use"
+- "A. Manage the code within the Lambda function"
+- "B. Confirm that hardware is functioning in the data center"
+- "C. Apply patches to the operating system"
+- "D. Turn off Lambda functions when no longer in use"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Manage the code within the Lambda function"
@@ -2283,10 +2283,10 @@
 
 186. A development team wants to deploy multiple test environments for an application quickly and in a repeatable way. Which AWS service should the team use?
 
-"A. Amazon EC2"
-"B. AWS CloudFormation"
-"C. Amazon QuickSight"
-"D. Amazon Elastic Container Service (Amazon ECS)"
+- "A. Amazon EC2"
+- "B. AWS CloudFormation"
+- "C. Amazon QuickSight"
+- "D. Amazon Elastic Container Service (Amazon ECS)"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS CloudFormation"
@@ -2295,10 +2295,10 @@
 
 187. A developer wants to quickly deploy an application on AWS without manually creating the necessary resources. Which AWS service will meet these requirements?
 
-"A. Amazon EC2"
-"B. AWS Elastic Beanstalk"
-"C. AWS CodeBuild"
-"D. Amazon Personalize"
+- "A. Amazon EC2"
+- "B. AWS Elastic Beanstalk"
+- "C. AWS CodeBuild"
+- "D. Amazon Personalize"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Elastic Beanstalk"
@@ -2307,26 +2307,26 @@
 
 188. Which AWS services can a company use to achieve a loosely coupled architecture? (Select TWO.)
 
-"A. Amazon Workspaces"
-"B. Amazon Simple Queue Service (Amazon SQS)"
-"C. Amazon Connect"
-"D. AWS Trusted Advisor"
-"E. AWS Step Functions"
+- "A. Amazon Workspaces"
+- "B. Amazon Simple Queue Service (Amazon SQS)"
+- "C. Amazon Connect"
+- "D. AWS Trusted Advisor"
+- "E. AWS Step Functions"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "B. Amazon Simple Queue Service (Amazon SQS)"
-"E. AWS Step Functions"
+- "E. AWS Step Functions"
 ]
 "explanation": "Amazon Simple Queue Service (Amazon SQS) and AWS Step Functions are AWS services that can be used to achieve a loosely coupled architecture. Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices distributed systems and serverless applications. AWS Step Functions allows you to coordinate multiple AWS services into serverless workflows so you can build and update apps quickly."
 </details>
 
 189. A company needs to control incoming and outgoing traffic to an Amazon EC2 instance. Which AWS service or feature can the company associate with the EC2 instance to meet this requirement?
 
-"A. Network ACL"
-"B. Security group"
-"C. AWS WAF"
-"D. VPC route tables"
+- "A. Network ACL"
+- "B. Security group"
+- "C. AWS WAF"
+- "D. VPC route tables"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Security group"
@@ -2335,10 +2335,10 @@
 
 190. A company has 5 TB of data stored in Amazon S3. The company plans to occasionally run queries on the data for analysis. Which AWS service should the company use to run these queries in the MOST cost-effective way?
 
-"A. Amazon Redshift"
-"B. Amazon Athena"
-"C. Amazon Kinesis"
-"D. Amazon RDS"
+- "A. Amazon Redshift"
+- "B. Amazon Athena"
+- "C. Amazon Kinesis"
+- "D. Amazon RDS"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Amazon Athena"
@@ -2347,11 +2347,11 @@
 
 191. A company wants to migrate its database to an AWS managed service that is compatible with PostgreSQL. Which AWS services will meet these requirements? (Select TWO)
 
-"A. Amazon Athena"
-"B. Amazon RDS"
-"C. Amazon EC2"
-"D. Amazon DynamoDB"
-"E. Amazon Aurora"
+- "A. Amazon Athena"
+- "B. Amazon RDS"
+- "C. Amazon EC2"
+- "D. Amazon DynamoDB"
+- "E. Amazon Aurora"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["B. Amazon RDS" "E. Amazon Aurora"]
@@ -2360,10 +2360,10 @@
 
 192. A company's application has high customer usage at certain times of the day. The company wants to reduce the number of running Amazon EC2 instances when application usage is low. Which AWS service or instance purchase option should the company use to meet this requirement?
 
-"A. EC2 Instance Savings Plans"
-"B. Spot Instances"
-"C. Reserved Instances"
-"D. Amazon EC2 Auto Scaling"
+- "A. EC2 Instance Savings Plans"
+- "B. Spot Instances"
+- "C. Reserved Instances"
+- "D. Amazon EC2 Auto Scaling"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon EC2 Auto Scaling"
@@ -2372,10 +2372,10 @@
 
 193. A company is running an on-premises monolithic application that does not scale and is difficult to maintain. The company has a plan to migrate the application to AWS and break it into microservices. Which AWS Well-Architected Framework best practice is the company following with this plan?
 
-"A. Integrate functional testing as part of deployment into AWS."
-"B. Use automation to make changes."
-"C. Deploy the application in multiple locations."
-"D. Implement loosely coupled dependencies."
+- "A. Integrate functional testing as part of deployment into AWS."
+- "B. Use automation to make changes."
+- "C. Deploy the application in multiple locations."
+- "D. Implement loosely coupled dependencies."
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Implement loosely coupled dependencies."
@@ -2384,10 +2384,10 @@
 
 194. Which AWS service or feature allows users to encrypt data at rest in Amazon S3?
 
-"A. IAM policies"
-"B. Server-side encryption"
-"C. Amazon GuardDuty"
-"D. Client-side encryption"
+- "A. IAM policies"
+- "B. Server-side encryption"
+- "C. Amazon GuardDuty"
+- "D. Client-side encryption"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Server-side encryption"
@@ -2396,10 +2396,10 @@
 
 195. An IT engineer needs to access AWS services from an on-premises application. What credentials or keys does the application need for authentication?
 
-"A. AWS account username and password"
-"B. IAM access key and secret"
-"C. Amazon EC2 key pairs"
-"D. AWS Key Management Service (AWS KMS) keys"
+- "A. AWS account username and password"
+- "B. IAM access key and secret"
+- "C. Amazon EC2 key pairs"
+- "D. AWS Key Management Service (AWS KMS) keys"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. IAM access key and secret"
@@ -2408,10 +2408,10 @@
 
 196. A company wants to migrate its high-performance computing (HPC) application to Amazon EC2 instances. The application has multiple components and must have fault tolerance and automatic failover capabilities. Which AWS infrastructure solution will meet these requirements with the LEAST latency between components?
 
-"A. Multiple AWS Regions"
-"B. Multiple edge locations"
-"C. Multiple Availability Zones"
-"D. Regional edge caches"
+- "A. Multiple AWS Regions"
+- "B. Multiple edge locations"
+- "C. Multiple Availability Zones"
+- "D. Regional edge caches"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Multiple Availability Zones"
@@ -2420,27 +2420,27 @@
 
 197. Elasticity in the AWS cloud refers to which of the following? (Select TWO.)
 
-"A. How quickly an Amazon EC2 instance can be restarted"
-"B. The ability to scale resources as demand changes"
-"C. The maximum amount of RAM an Amazon EC2 instance can use"
-"D. The pay-for-what-you-use billing model"
-"E. How easily resources can be obtained when needed"
+- "A. How quickly an Amazon EC2 instance can be restarted"
+- "B. The ability to scale resources as demand changes"
+- "C. The maximum amount of RAM an Amazon EC2 instance can use"
+- "D. The pay-for-what-you-use billing model"
+- "E. How easily resources can be obtained when needed"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
 "B. The ability to scale resources as demand changes"
-"E. How easily resources can be obtained when needed"
+- "E. How easily resources can be obtained when needed"
 ]
 "explanation": "Elasticity in the AWS cloud refers to the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud you want to do this automatically. This means that you can scale resources as demand changes and can easily obtain resources when they are needed."
 </details>
 
 198. Which AWS services or features allow users to create a network connection between two VPCs? (Select TWO.)
 
-"A. VPC endpoints"
-"B. Amazon Route 53"
-"C. VPC peering"
-"D. AWS Direct Connect"
-"E. AWS Transit Gateway"
+- "A. VPC endpoints"
+- "B. Amazon Route 53"
+- "C. VPC peering"
+- "D. AWS Direct Connect"
+- "E. AWS Transit Gateway"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": ["C. VPC peering" "E. AWS Transit Gateway"]
@@ -2449,10 +2449,10 @@
 
 199. A company has a physical tape library for storing data backups. The tape library is running out of space. The company needs to extend the tape library capacity to the AWS cloud. Which AWS service should the company use to meet this requirement?
 
-"A. Amazon Elastic File System (Amazon EFS)"
-"B. Amazon Elastic Block Store (Amazon EBS)"
-"C. Amazon S3"
-"D. AWS Storage Gateway"
+- "A. Amazon Elastic File System (Amazon EFS)"
+- "B. Amazon Elastic Block Store (Amazon EBS)"
+- "C. Amazon S3"
+- "D. AWS Storage Gateway"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Storage Gateway"
@@ -2461,10 +2461,10 @@
 
 200. Which AWS service provides encryption at rest for Amazon RDS and for Amazon Elastic Block Store (Amazon EBS) volumes?
 
-"A. AWS Lambda"
-"B. AWS Key Management Service (AWS KMS)"
-"C. AWS WAF"
-"D. Amazon Rekognition"
+- "A. AWS Lambda"
+- "B. AWS Key Management Service (AWS KMS)"
+- "C. AWS WAF"
+- "D. Amazon Rekognition"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Key Management Service (AWS KMS)"
