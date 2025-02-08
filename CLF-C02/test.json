@@ -1,25 +1,21 @@
----
-layout: exam
----
-
 1. Which AWS service will help a company identify the user who deleted an Amazon EC2 instance yesterday?
-     
-"A. Amazon CloudWatch"
-"B. AWS Trusted Advisor"
-"C. AWS CloudTrail"
-"D. Amazon Inspector"
+
+- "A. Amazon CloudWatch"
+- "B. AWS Trusted Advisor"
+- "C. AWS CloudTrail"
+- "D. Amazon Inspector"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
-   "correctAnswer": "C. AWS CloudTrail"
-   "explanation": "AWS CloudTrail is a service that enables you to track user activity and API usage across your AWS account essential for identifying specific actions such as deleting an EC2 instance."
+"correctAnswer": "C. AWS CloudTrail"
+"explanation": "AWS CloudTrail is a service that enables you to track user activity and API usage across your AWS account essential for identifying specific actions such as deleting an EC2 instance."
 </details>
 
 2. A company needs a content delivery network that provides secure data video application and API delivery to users globally with low latency and high transfer speeds. Which AWS service meets these requirements?
 
-"A. Amazon CloudFront"
-"B. Elastic Load Balancing"
-"C. Amazon S3"
-"D. Amazon Elastic Transcoder"
+- "A. Amazon CloudFront"
+- "B. Elastic Load Balancing"
+- "C. Amazon S3"
+- "D. Amazon Elastic Transcoder"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon CloudFront"
@@ -28,10 +24,10 @@ layout: exam
 
 3. Amazon Elastic File System (Amazon EFS) and Amazon FSx offer which type of storage?
 
-"A. File storage"
-"B. Object storage"
-"C. Block storage"
-"D. Instance storage"
+- "A. File storage"
+- "B. Object storage"
+- "C. Block storage"
+- "D. Instance storage"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. File storage"
@@ -40,15 +36,15 @@ layout: exam
 
 4. A retail company is migrating its IT infrastructure from an on-premises data center to the AWS Cloud. What costs will the company eliminate with this migration? (Select TWO.)
 
-"A. Cost of data center operations"
-"B. Cost of application licensing"
-"C. Cost of marketing campaigns"
-"D. Cost of physical server hardware"
-"E. Cost of network management"
+- "A. Cost of data center operations"
+- "B. Cost of application licensing"
+- "C. Cost of marketing campaigns"
+- "D. Cost of physical server hardware"
+- "E. Cost of network management"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Cost of data center operations"
+"A. Cost of data center operations",
 "D. Cost of physical server hardware"
 ]
 "explanation": "By migrating to the AWS Cloud the company can eliminate costs associated with data center operations and physical server hardware."
@@ -56,10 +52,10 @@ layout: exam
 
 5. Which of the following acts as a firewall at the instance level to control inbound and outbound access?
 
-"A. Network access control list"
-"B. Security groups"
-"C. AWS Trusted Advisor"
-"D. Virtual private gateways"
+- "A. Network access control list"
+- "B. Security groups"
+- "C. AWS Trusted Advisor"
+- "D. Virtual private gateways"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Security groups"
@@ -68,10 +64,10 @@ layout: exam
 
 6. An Availability Zone consists of:
 
-"A. One or more data centers in a single location"
-"B. Two or more data centers in multiple locations"
-"C. One or more physical hosts in a single data center"
-"D. Two or more physical hosts in multiple data centers"
+- "A. One or more data centers in a single location"
+- "B. Two or more data centers in multiple locations"
+- "C. One or more physical hosts in a single data center"
+- "D. Two or more physical hosts in multiple data centers"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. One or more data centers in a single location"
@@ -80,15 +76,15 @@ layout: exam
 
 7. Which of the following are AWS cloud design principles? (Select TWO.)
 
-"A. Pay for compute resources upfront"
-"B. Make data-driven decisions to determine cloud architectural design"
-"C. Emphasize manual processes to enable frequent changes"
-"D. Test systems at production scale"
-"E. Refine operational procedures infrequently"
+- "A. Pay for compute resources upfront"
+- "B. Make data-driven decisions to determine cloud architectural design"
+- "C. Emphasize manual processes to enable frequent changes"
+- "D. Test systems at production scale"
+- "E. Refine operational procedures infrequently"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"B. Make data-driven decisions to determine cloud architectural design"
+"B. Make data-driven decisions to determine cloud architectural design",
 "D. Test systems at production scale"
 ]
 "explanation": "Making data-driven decisions and testing systems at production scale are AWS cloud design principles that help build secure efficient and operationally sound systems."
@@ -96,10 +92,10 @@ layout: exam
 
 8. Which AWS tool or service provides recommendations to help users get right-sized Amazon EC2 instances based on the workload's historical usage data?
 
-"A. AWS Pricing Calculator"
-"B. AWS Compute Optimizer"
-"C. AWS App Runner"
-"D. AWS Systems Manager"
+- "A. AWS Pricing Calculator"
+- "B. AWS Compute Optimizer"
+- "C. AWS App Runner"
+- "D. AWS Systems Manager"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Compute Optimizer"
@@ -108,15 +104,15 @@ layout: exam
 
 9. Which tasks are AWS responsibilities according to the AWS Shared Responsibility Model? (Select TWO.)
 
-"A. Patching AWS networking devices"
-"B. Defining user password policies"
-"C. Providing physical security for compute resources"
-"D. Configuring security groups"
-"E. Patching an Amazon EC2 instance operating system"
+- "A. Patching AWS networking devices"
+- "B. Defining user password policies"
+- "C. Providing physical security for compute resources"
+- "D. Configuring security groups"
+- "E. Patching an Amazon EC2 instance operating system"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Patching AWS networking devices"
+"A. Patching AWS networking devices",
 "C. Providing physical security for compute resources"
 ]
 "explanation": "Patching AWS networking devices and providing physical security for compute resources are tasks that are AWS responsibilities."
@@ -124,10 +120,10 @@ layout: exam
 
 10. An IT team is managing clusters of MySQL database servers. The team has to patch the database and take backup snapshots of the data in the clusters. The company wants to move this workload to AWS so that these tasks are completed automatically. What should the company do to meet these requirements?
 
-"A. Deploy MySQL database server clusters on Amazon EC2 instances"
-"B. Use Amazon RDS with a MySQL database"
-"C. Use an AWS CloudFormation template to deploy MySQL database servers on Amazon EC2 instances"
-"D. Migrate all MySQL database data to Amazon S3"
+- "A. Deploy MySQL database server clusters on Amazon EC2 instances"
+- "B. Use Amazon RDS with a MySQL database"
+- "C. Use an AWS CloudFormation template to deploy MySQL database servers on Amazon EC2 instances"
+- "D. Migrate all MySQL database data to Amazon S3"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Use Amazon RDS with a MySQL database"
@@ -136,10 +132,10 @@ layout: exam
 
 11. A company has a workload that requires data to be collected analyzed and stored on premises. The company wants to extend the use of AWS services to function on premises with access to the company's network and the company's VPC. Which AWS service meets this requirement?
 
-"A. AWS Outposts"
-"B. AWS Storage Gateway"
-"C. AWS Direct Connect"
-"D. AWS Snowball"
+- "A. AWS Outposts"
+- "B. AWS Storage Gateway"
+- "C. AWS Direct Connect"
+- "D. AWS Snowball"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Outposts"
@@ -148,10 +144,10 @@ layout: exam
 
 12. A company is building a serverless architecture that connects application data from multiple data sources. The company needs a solution that does not require additional code. Which AWS service meets these requirements?
 
-"A. AWS Lambda"
-"B. Amazon Simple Queue Service (Amazon SQS)"
-"C. Amazon CloudWatch"
-"D. Amazon EventBridge"
+- "A. AWS Lambda"
+- "B. Amazon Simple Queue Service (Amazon SQS)"
+- "C. Amazon CloudWatch"
+- "D. Amazon EventBridge"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon EventBridge"
@@ -160,10 +156,10 @@ layout: exam
 
 13. A company deploys its application on Amazon EC2 instances. The application occasionally experiences sudden increases in demand. The company wants to ensure that its application can respond to changes in demand with the least possible cost. Which AWS service or tool will meet these requirements?
 
-"A. AWS Auto Scaling"
-"B. AWS Compute Optimizer"
-"C. AWS Cost Explorer"
-"D. AWS Well-Architected Framework"
+- "A. AWS Auto Scaling"
+- "B. AWS Compute Optimizer"
+- "C. AWS Cost Explorer"
+- "D. AWS Well-Architected Framework"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. AWS Auto Scaling"
@@ -172,15 +168,15 @@ layout: exam
 
 14. Which of the following are advantages of the AWS Cloud? (Select TWO.)
 
-"A. Trade variable expense for capital expense"
-"B. Massive economies of scale"
-"C. Launch globally in minutes"
-"D. Focus on managing hardware infrastructure"
-"E. Overprovision to ensure capacity"
+- "A. Trade variable expense for capital expense"
+- "B. Massive economies of scale"
+- "C. Launch globally in minutes"
+- "D. Focus on managing hardware infrastructure"
+- "E. Overprovision to ensure capacity"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"B. Massive economies of scale"
+"B. Massive economies of scale",
 "C. Launch globally in minutes"
 ]
 "explanation": "The AWS Cloud provides massive economies of scale and the ability to launch resources globally in minutes."
@@ -188,15 +184,15 @@ layout: exam
 
 15. Which tasks are customer responsibilities according to the AWS Shared Responsibility Model? (Select TWO.)
 
-"A. Determine application dependencies on operating systems"
-"B. Provide user access with AWS Identity and Access Management (IAM)"
-"C. Ensure physical security of data center in an Availability Zone"
-"D. Patch the hypervisor"
-"E. Ensure network availability across Availability Zones"
+- "A. Determine application dependencies on systems"
+- "B. Provide user access with AWS Identity and Access Management (IAM)"
+- "C. Ensure physical security of data center in an Availability Zone"
+- "D. Patch the hypervisor"
+- "E. Ensure network availability across Availability Zones"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": [
-"A. Determine application dependencies on operating systems"
+"A. Determine application dependencies on operating systems",
 "B. Provide user access with AWS Identity and Access Management (IAM)"
 ]
 "explanation": "Determining application dependencies and providing user access using AWS IAM are customer responsibilities per the AWS Shared Responsibility Model."
@@ -204,10 +200,10 @@ layout: exam
 
 16. Which of the following promotes AWS Cloud architectural best practices for designing and operating reliable secure efficient and cost-effective systems?
 
-"A. AWS Serverless Application Model framework"
-"B. AWS Business Support"
-"C. Principle of least privilege"
-"D. AWS Well-Architected Framework"
+- "A. AWS Serverless Application Model framework"
+- "B. AWS Business Support"
+- "C. Principle of least privilege"
+- "D. AWS Well-Architected Framework"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. AWS Well-Architected Framework"
@@ -216,10 +212,10 @@ layout: exam
 
 17. Using Amazon Elastic Container Service (Amazon ECS) to break a monolithic architecture into microservices is an example of:
 
-"A. A loosely coupled architecture"
-"B. A tightly coupled architecture"
-"C. A stateless architecture"
-"D. A stateful architecture"
+- "A. A loosely coupled architecture"
+- "B. A tightly coupled architecture"
+- "C. A stateless architecture"
+- "D. A stateful architecture"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. A loosely coupled architecture"
@@ -228,10 +224,10 @@ layout: exam
 
 18. A company transfers its infrastructure from on premises to the AWS Cloud. Now the company can provision additional Amazon EC2 instances whenever needed. With this capability the company can launch new marketing campaigns in 3 days instead of 3 weeks. Which benefit of the AWS Cloud does this scenario demonstrate?
 
-"A. Cost savings"
-"B. Improved operational resilience"
-"C. Increased business agility"
-"D. Enhanced security"
+- "A. Cost savings"
+- "B. Improved operational resilience"
+- "C. Increased business agility"
+- "D. Enhanced security"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Increased business agility"
@@ -240,10 +236,10 @@ layout: exam
 
 19. A company is using a third-party service to back up 10 TB of data to a tape library. The on-premises backup server is running out of space. The company wants to use AWS services for the backups without changing their existing backup workflows. Which AWS service should the company use to meet these requirements?
 
-"A. Amazon Elastic Block Store (Amazon EBS)"
-"B. AWS Storage Gateway"
-"C. Amazon Elastic Container Service (Amazon ECS)"
-"D. AWS Lambda"
+- "A. Amazon Elastic Block Store (Amazon EBS)"
+- "B. AWS Storage Gateway"
+- "C. Amazon Elastic Container Service (Amazon ECS)"
+- "D. AWS Lambda"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Storage Gateway"
@@ -252,10 +248,10 @@ layout: exam
 
 20. A company needs to continuously monitor its environment to analyze network and account activity and identify potential security threats. Which AWS service should the company use to meet these needs?
 
-"A. AWS Artifact"
-"B. Amazon Macie"
-"C. AWS Identity and Access Management (IAM)"
-"D. Amazon GuardDuty"
+- "A. AWS Artifact"
+- "B. Amazon Macie"
+- "C. AWS Identity and Access Management (IAM)"
+- "D. Amazon GuardDuty"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon GuardDuty"
@@ -264,10 +260,10 @@ layout: exam
 
 21. A cloud engineer wants to know the percentage of allocated compute units that are in use for a specific Amazon EC2 instance. Which AWS service can provide this information?
 
-"A. AWS CloudTrail"
-"B. AWS Config"
-"C. Amazon CloudWatch"
-"D. AWS Artifact"
+- "A. AWS CloudTrail"
+- "B. AWS Config"
+- "C. Amazon CloudWatch"
+- "D. AWS Artifact"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon CloudWatch"
@@ -276,10 +272,10 @@ layout: exam
 
 22. Which AWS service or feature is used for troubleshooting network connectivity between Amazon EC2 instances?
 
-"A. AWS Certificate Manager (ACM)"
-"B. Internet Gateway"
-"C. VPC Flow Logs"
-"D. AWS CloudHSM"
+- "A. AWS Certificate Manager (ACM)"
+- "B. Internet Gateway"
+- "C. VPC Flow Logs"
+- "D. AWS CloudHSM"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. VPC Flow Logs"
@@ -288,10 +284,10 @@ layout: exam
 
 23. Which AWS service provides highly durable object storage?
 
-"A. Amazon S3"
-"B. Amazon Elastic File System (Amazon EFS)"
-"C. Amazon Elastic Block Store (Amazon EBS)"
-"D. Amazon FSx"
+- "A. Amazon S3"
+- "B. Amazon Elastic File System (Amazon EFS)"
+- "C. Amazon Elastic Block Store (Amazon EBS)"
+- "D. Amazon FSx"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon S3"
@@ -300,10 +296,10 @@ layout: exam
 
 24. Which AWS service or feature gives users the ability to provision a dedicated private network connection from their internal network to AWS?
 
-"A. AWS CloudHSM"
-"B. AWS Direct Connect"
-"C. AWS VPN"
-"D. Amazon Connect"
+- "A. AWS CloudHSM"
+- "B. AWS Direct Connect"
+- "C. AWS VPN"
+- "D. Amazon Connect"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Direct Connect"
@@ -312,10 +308,10 @@ layout: exam
 
 25. A company is using a third-party service to back up 10 TB of data to a tape library. The on-premises backup server is running out of space. The company wants to use AWS services for the backups without changing their existing backup workflows. Which AWS service should the company use to meet these requirements?
 
-"A. Amazon Elastic Block Store (Amazon EBS)"
-"B. AWS Storage Gateway"
-"C. Amazon Elastic Container Service (Amazon ECS)"
-"D. AWS Lambda"
+- "A. Amazon Elastic Block Store (Amazon EBS)"
+- "B. AWS Storage Gateway"
+- "C. Amazon Elastic Container Service (Amazon ECS)"
+- "D. AWS Lambda"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. AWS Storage Gateway"
@@ -324,10 +320,10 @@ layout: exam
 
 26. A company needs to continuously monitor its environment to analyze network and account activity and identify potential security threats. Which AWS service should the company use to meet these needs?
 
-"A. AWS Artifact"
-"B. Amazon Macie"
-"C. AWS Identity and Access Management (IAM)"
-"D. Amazon GuardDuty"
+- "A. AWS Artifact"
+- "B. Amazon Macie"
+- "C. AWS Identity and Access Management (IAM)"
+- "D. Amazon GuardDuty"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "D. Amazon GuardDuty"
@@ -336,10 +332,10 @@ layout: exam
 
 27. A cloud engineer wants to know the percentage of allocated compute units that are in use for a specific Amazon EC2 instance. Which AWS service can provide this information?
 
-"A. AWS CloudTrail"
-"B. AWS Config"
-"C. Amazon CloudWatch"
-"D. AWS Artifact"
+- "A. AWS CloudTrail"
+- "B. AWS Config"
+- "C. Amazon CloudWatch"
+- "D. AWS Artifact"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. Amazon CloudWatch"
@@ -348,10 +344,10 @@ layout: exam
 
 28. Which AWS service or feature is used for troubleshooting network connectivity between Amazon EC2 instances?
 
-"A. AWS Certificate Manager (ACM)"
-"B. Internet Gateway"
-"C. VPC Flow Logs"
-"D. AWS CloudHSM"
+- "A. AWS Certificate Manager (ACM)"
+- "B. Internet Gateway"
+- "C. VPC Flow Logs"
+- "D. AWS CloudHSM"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "C. VPC Flow Logs"
@@ -360,10 +356,10 @@ layout: exam
 
 29. Which AWS service provides highly durable object storage?
 
-"A. Amazon S3"
-"B. Amazon Elastic File System (Amazon EFS)"
-"C. Amazon Elastic Block Store (Amazon EBS)"
-"D. Amazon FSx"
+- "A. Amazon S3"
+- "B. Amazon Elastic File System (Amazon EFS)"
+- "C. Amazon Elastic Block Store (Amazon EBS)"
+- "D. Amazon FSx"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "A. Amazon S3"
@@ -372,10 +368,10 @@ layout: exam
 
 30. A company wants its Amazon EC2 instances to operate in a highly available environment even in case of a natural disaster in a specific geographic area. Which solution achieves this goal?
 
-"A. Use EC2 instances in a single Availability Zone"
-"B. Use EC2 instances across multiple AWS Regions"
-"C. Use EC2 instances across multiple edge locations"
-"D. Use Amazon CloudFront with the EC2 instances configured as the origin"
+- "A. Use EC2 instances in a single Availability Zone"
+- "B. Use EC2 instances across multiple AWS Regions"
+- "C. Use EC2 instances across multiple edge locations"
+- "D. Use Amazon CloudFront with the EC2 instances configured as the origin"
 
 <details markdown=1><summary markdown='span'>Answer</summary>
 "correctAnswer": "B. Use EC2 instances across multiple AWS Regions"
